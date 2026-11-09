@@ -1,0 +1,15 @@
+# Entornos
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Temporales de extracción
+/tmp/
+*.tmp
+*.log
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
