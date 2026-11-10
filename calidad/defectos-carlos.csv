@@ -1,0 +1,4 @@
+fecha,numero,tipo,fase_inyeccion,fase_remocion,tiempo_fix,descripcion
+2026-11-09,1,10,Documentación,Documentación,20,Los archivos analisis-etico.md y plan-datos.md no coincidían con las fuentes reales de la propuesta
+2026-11-09,2,10,Documentación,Documentación,10,El nombre del archivo de calidad no era consistente con el de Ian (tiempo-ian.csv)
+2026-11-09,3,70,Análisis,Análisis,15,Faltaba confirmar si los scripts extract_dengue.py y extract_clima.py ya existían
