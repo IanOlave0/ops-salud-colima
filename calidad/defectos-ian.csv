@@ -1,0 +1,5 @@
+fecha,fase,tipo,descripcion,causa,severidad,minutos_correccion
+2026-11-09,extraccion,parser,12 semanas fallaban con "solo 13 entidades extraidas",Los PDFs insertan espacios dentro del nombre de la entidad (COLI M A),alta,25
+2026-11-09,extraccion,esquema,"Columna entidad vacia en 1344 filas",Faltaba incluir el campo entidad en el diccionario de salida,alta,10
+2026-11-09,extraccion,idempotencia,42 filas vacias persistian tras usar --force,El modo force mezclaba el CSV anterior con el nuevo,media,5
+2026-11-09,extraccion,cobertura,SE 35 sin tabla estatal parseable; 1 semana faltante,El PDF de esa semana no publica la tabla con el formato esperado,baja,0

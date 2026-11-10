@@ -1,0 +1,73 @@
+name: Captura Bronce
+
+on:
+  schedule:
+    # 13:00 UTC = 07:00 America/Mexico_City
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bronce
+  cancel-in-progress: false
+
+jobs:
+  captura:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Dependencias del sistema (pdftotext)
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dependencias de Python
+        run: pip install -r requirements.txt
+
+      - name: Extraer dengue (DGE)
+        run: python src/extract_dengue.py
+
+      - name: Extraer clima (Open-Meteo)
+        run: python src/extract_clima.py
+
+      - name: Validar cobertura mínima (36 periodos)
+        run: python src/validar.py
+
+      - name: Resumen en la corrida
+        if: always()
+        run: |
+          if [ -f datos_crudos/_reporte_dengue.json ]; then
+            python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          d = json.load(open("datos_crudos/_reporte_dengue.json"))
+          print("### Cobertura Bronce\n")
+          print(f"- Semanas publicadas en la fuente: {d['semanas_publicadas']}")
+          print(f"- Semanas con datos: **{d['semanas_con_datos']}**")
+          print(f"- Filas: {d['filas']}")
+          print(f"- Fallos: {len(d['fallidas'])}")
+          for f in d["fallidas"]:
+              print(f"  - SE {f['semana']}: {f['error']}")
+          PY
+          fi
+
+      - name: Commit y push si hay cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add datos_crudos
+          if git diff --cached --quiet; then
+            echo "Sin cambios en la capa Bronce."
+          else
+            git commit -m "datos(bronce): actualiza series $(date -u +%Y-%m-%d)"
+            git push
+          fi

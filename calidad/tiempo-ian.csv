@@ -1,0 +1,9 @@
+fecha,actividad,minutos,nota
+2026-11-09,Definicion del problema con enfermera del sector,45,Se descarto dengue y se reoriento a desabasto de insumos
+2026-11-09,Revision de fuentes publicas y robots.txt,25,DGE + Open-Meteo; se documentaron terminos y licencias
+2026-11-09,Creacion del repositorio en GitHub,10,Repo privado ops-salud-colima
+2026-11-09,Extractor de dengue (DGE),70,Parseo de PDFs con pdftotext y normalizacion de nombres
+2026-11-09,Extractor de clima (Open-Meteo),20,Agregacion semanal por ciudad
+2026-11-09,Workflow de GitHub Actions,15,Cron diario 13:00 UTC y commit automatico
+2026-11-09,Redaccion de propuesta y ficha de entrega,50,Incluye analisis etico y objetivos de calidad
+2026-11-09,Depuracion de defectos del extractor,40,Tres defectos corregidos y uno documentado

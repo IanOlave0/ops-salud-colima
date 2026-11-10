@@ -1,0 +1,1345 @@
+anio,semana,entidad,probables_2025,probables_2026,dng_2025,dng_2026,dcsa_dg_2025,dcsa_dg_2026,confirmados_2025,confirmados_2026,defunciones_2025,defunciones_2026,url,extraido_en
+2026,1,Aguascalientes,5,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Baja California,0,6,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Baja California Sur,5,25,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Campeche,6,5,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Chiapas,5,22,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Chihuahua,0,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Ciudad de México,2,3,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Coahuila,3,7,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Colima,10,12,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Durango,0,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Guanajuato,5,11,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Guerrero,11,31,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Hidalgo,0,2,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Jalisco,44,56,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Michoacán,13,22,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Morelos,12,17,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,México,1,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Nayarit,16,19,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Nuevo León,5,15,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Oaxaca,4,14,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Puebla,4,8,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Querétaro,0,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Quintana Roo,10,32,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,San Luis Potosí,1,5,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Sinaloa,16,74,0,2,0,2,0,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Sonora,0,76,0,5,0,3,0,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Tabasco,10,47,0,3,0,0,0,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Tamaulipas,17,20,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Tlaxcala,1,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Veracruz,28,98,0,1,0,0,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Yucatán,9,20,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,1,Zacatecas,0,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1050692/Pano_dengue_SE01.pdf,2026-11-10T00:32:39+00:00
+2026,2,Aguascalientes,80,2,1,0,0,0,1,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Baja California,112,12,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Baja California Sur,52,62,0,2,0,1,0,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Campeche,126,24,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Chiapas,49,62,2,0,5,1,7,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Chihuahua,29,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Ciudad de México,27,6,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Coahuila,25,16,0,0,1,0,1,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Colima,3,40,0,0,3,0,3,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Durango,80,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Guanajuato,0,25,1,0,1,0,2,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Guerrero,7,91,2,1,8,0,10,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Hidalgo,1,10,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Jalisco,227,157,18,4,29,2,47,6,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Michoacán,678,57,0,2,1,2,1,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Morelos,24,63,0,0,4,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,México,8,4,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Nayarit,183,79,0,1,6,1,6,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Nuevo León,161,23,2,0,2,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Oaxaca,47,49,0,1,0,1,0,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Puebla,42,27,1,0,3,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Querétaro,116,6,1,0,0,0,1,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Quintana Roo,16,119,2,3,0,0,2,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,San Luis Potosí,90,16,4,0,1,1,5,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Sinaloa,67,256,4,15,17,31,21,46,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Sonora,185,267,0,27,1,35,1,62,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Tabasco,13,144,0,20,0,8,0,28,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Tamaulipas,197,52,9,2,6,2,15,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Tlaxcala,2,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Veracruz,315,250,8,11,5,8,13,19,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Yucatán,60,52,0,2,2,0,2,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,2,Zacatecas,2,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1051438/Pano_dengue_SE02.pdf,2026-11-10T00:32:40+00:00
+2026,3,Aguascalientes,43,4,1,0,3,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Baja California,8,15,0,1,0,0,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Baja California Sur,91,124,1,9,4,6,5,15,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Campeche,55,53,3,1,1,1,4,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Chiapas,181,109,5,4,18,3,23,7,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Chihuahua,1,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Ciudad de México,21,8,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Coahuila,46,22,2,0,4,1,6,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Colima,200,71,0,0,4,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Durango,8,2,0,0,1,0,1,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Guanajuato,87,45,1,0,5,1,6,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Guerrero,450,164,14,1,33,1,47,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Hidalgo,20,15,2,0,4,0,6,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Jalisco,1246,257,56,4,92,4,148,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Michoacán,331,101,14,2,18,4,32,6,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Morelos,209,122,0,1,12,1,12,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,México,35,16,0,0,1,0,1,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Nayarit,266,130,4,2,15,10,19,12,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Nuevo León,80,34,7,0,12,0,19,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Oaxaca,127,81,2,1,0,3,2,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Puebla,176,39,3,0,6,0,9,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Querétaro,28,6,6,0,1,0,7,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Quintana Roo,205,199,0,5,2,2,2,7,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,San Luis Potosí,133,26,22,1,8,2,30,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Sinaloa,358,428,14,20,46,57,60,77,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Sonora,25,402,0,52,2,79,2,131,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Tabasco,172,286,4,27,7,17,11,44,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Tamaulipas,403,80,23,4,25,4,48,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Tlaxcala,4,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Veracruz,517,439,35,26,36,28,71,54,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Yucatán,120,88,9,4,8,1,17,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,3,Zacatecas,2,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1053463/Pano_dengue_03.pdf,2026-11-10T00:32:40+00:00
+2026,4,Aguascalientes,58,6,2,0,4,0,6,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Baja California,12,18,0,1,0,0,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Baja California Sur,126,181,1,16,6,12,7,28,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Campeche,82,73,3,1,1,2,4,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Chiapas,279,144,11,4,23,5,34,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Chihuahua,2,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Ciudad de México,38,9,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Coahuila,56,27,3,0,7,1,10,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Colima,301,115,3,0,6,0,9,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Durango,13,3,0,0,2,0,2,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Guanajuato,110,58,1,0,6,1,7,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Guerrero,704,239,26,1,44,3,70,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Hidalgo,25,17,2,0,5,0,7,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Jalisco,1786,382,84,5,136,5,220,10,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Michoacán,490,152,20,4,34,8,54,12,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Morelos,347,171,1,1,13,1,14,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,México,46,22,0,0,3,0,3,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Nayarit,375,188,6,2,17,11,23,13,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Nuevo León,101,42,7,0,13,0,20,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Oaxaca,197,124,3,1,0,4,3,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Puebla,217,55,3,0,8,0,11,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Querétaro,46,9,8,0,1,0,9,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Quintana Roo,316,294,1,9,4,4,5,13,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,San Luis Potosí,174,35,35,1,14,2,49,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Sinaloa,492,620,23,31,70,76,93,107,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Sonora,43,508,0,68,3,89,3,157,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Tabasco,283,401,5,38,12,36,17,74,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Tamaulipas,479,104,39,6,42,4,81,10,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Tlaxcala,4,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Veracruz,702,581,44,43,63,49,107,92,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Yucatán,191,121,11,5,8,2,19,7,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,4,Zacatecas,2,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1055234/Pano_dengue_04.pdf,2026-11-10T00:32:40+00:00
+2026,5,Aguascalientes,74,9,2,0,5,0,7,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Baja California,15,20,0,1,0,0,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Baja California Sur,168,220,3,18,6,18,9,36,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Campeche,107,84,3,1,2,2,5,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Chiapas,374,179,15,4,36,8,51,12,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Chihuahua,2,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Ciudad de México,37,11,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Coahuila,65,36,3,0,8,1,11,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Colima,384,144,3,0,8,0,11,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Durango,13,3,0,0,2,0,2,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Guanajuato,143,71,1,1,7,1,8,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Guerrero,966,305,32,1,55,3,87,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Hidalgo,34,21,3,0,6,1,9,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Jalisco,2204,483,114,7,166,5,280,12,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Michoacán,637,184,42,6,59,10,101,16,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Morelos,494,216,5,1,18,1,23,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,México,59,29,3,0,4,0,7,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Nayarit,476,221,7,2,20,12,27,14,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Nuevo León,113,50,7,0,15,0,22,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Oaxaca,251,148,3,1,0,5,3,6,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Puebla,269,64,3,0,9,0,12,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Querétaro,61,11,8,0,1,0,9,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Quintana Roo,456,347,2,16,10,9,12,25,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,San Luis Potosí,211,43,38,1,18,2,56,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Sinaloa,568,736,27,34,84,99,111,133,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Sonora,49,581,1,84,4,111,5,195,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Tabasco,428,498,17,45,21,40,38,85,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Tamaulipas,570,130,49,6,50,4,99,10,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Tlaxcala,4,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Veracruz,890,686,67,47,80,53,147,100,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Yucatán,253,135,13,5,13,2,26,7,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,5,Zacatecas,2,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1057004/Pano_dengue_05.pdf,2026-11-10T00:32:41+00:00
+2026,6,Aguascalientes,83,10,2,0,5,0,7,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Baja California,16,22,0,1,0,0,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Baja California Sur,196,264,3,22,9,23,12,45,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Campeche,130,106,5,1,2,2,7,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Chiapas,463,228,19,4,39,11,58,15,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Chihuahua,2,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Ciudad de México,43,15,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Coahuila,75,39,3,0,8,1,11,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Colima,480,174,5,0,8,0,13,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Durango,16,5,0,0,3,0,3,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Guanajuato,166,80,1,1,8,1,9,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Guerrero,1168,403,38,1,77,5,115,6,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Hidalgo,41,24,5,0,6,1,11,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Jalisco,2535,596,130,7,180,5,310,12,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Michoacán,728,222,52,9,69,13,121,22,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Morelos,639,301,5,1,19,1,24,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,México,67,36,4,0,4,0,8,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Nayarit,568,263,7,2,28,15,35,17,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Nuevo León,131,63,8,0,16,0,24,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Oaxaca,281,188,4,1,1,7,5,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Puebla,303,88,4,0,10,1,14,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Querétaro,82,12,10,0,1,1,11,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Quintana Roo,570,427,2,23,13,10,15,33,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,San Luis Potosí,248,58,41,3,23,4,64,7,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Sinaloa,637,848,33,45,89,115,122,160,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Sonora,58,671,1,90,5,123,6,213,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Tabasco,548,641,21,53,27,50,48,103,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Tamaulipas,653,161,51,7,51,4,102,11,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Tlaxcala,4,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Veracruz,1066,824,75,62,88,62,163,124,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Yucatán,305,161,15,6,17,2,32,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,6,Zacatecas,3,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1058317/Pano_dengue_SE06.pdf,2026-11-10T00:32:41+00:00
+2026,7,Aguascalientes,100,13,2,0,5,0,7,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Baja California,16,24,0,1,0,0,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Baja California Sur,225,301,4,25,9,28,13,53,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Campeche,154,133,6,1,2,2,8,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Chiapas,569,290,22,5,46,11,68,16,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Chihuahua,6,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Ciudad de México,49,18,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Coahuila,78,46,3,0,8,1,11,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Colima,561,224,5,0,10,0,15,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Durango,18,7,0,0,3,0,3,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Guanajuato,189,92,1,1,9,1,10,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Guerrero,1390,499,50,2,87,6,137,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Hidalgo,53,35,5,0,6,1,11,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Jalisco,2869,741,153,8,217,6,370,14,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Michoacán,847,273,56,10,74,13,130,23,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Morelos,787,401,6,1,21,1,27,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,México,78,38,4,0,5,0,9,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Nayarit,648,317,7,3,30,21,37,24,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Nuevo León,157,80,8,0,16,0,24,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Oaxaca,352,222,5,2,3,8,8,10,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Puebla,349,110,5,0,10,1,15,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Querétaro,102,13,10,0,1,1,11,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Quintana Roo,689,472,3,27,13,10,16,37,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,San Luis Potosí,308,66,45,3,25,4,70,7,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Sinaloa,711,957,40,47,98,125,138,172,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Sonora,72,749,1,96,5,132,6,228,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Tabasco,729,777,40,64,32,67,72,131,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Tamaulipas,792,208,76,12,56,4,132,16,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Tlaxcala,4,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Veracruz,1311,1005,80,67,97,69,177,136,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Yucatán,370,194,16,6,19,3,35,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,7,Zacatecas,4,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1059765/Pano_dengue_07.pdf,2026-11-10T00:32:41+00:00
+2026,8,Aguascalientes,106,15,2,0,5,0,7,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Baja California,18,25,0,1,0,0,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Baja California Sur,256,326,4,26,10,33,14,59,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Campeche,185,163,6,1,2,2,8,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Chiapas,679,347,23,8,59,12,82,20,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Chihuahua,7,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Ciudad de México,55,21,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Coahuila,81,50,3,0,8,1,11,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Colima,652,262,6,0,11,0,17,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Durango,20,8,0,0,3,0,3,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Guanajuato,213,103,1,1,9,1,10,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Guerrero,1622,583,58,2,95,7,153,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Hidalgo,58,41,6,0,8,1,14,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Jalisco,3132,812,174,8,232,6,406,14,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Michoacán,978,300,72,11,86,15,158,26,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Morelos,960,479,6,1,24,1,30,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,México,94,42,5,0,5,0,10,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Nayarit,714,343,8,3,31,23,39,26,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Nuevo León,184,94,8,0,19,0,27,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Oaxaca,401,252,5,2,6,9,11,11,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Puebla,405,128,6,0,12,1,18,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Querétaro,118,17,11,0,2,1,13,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Quintana Roo,796,535,10,29,14,10,24,39,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,San Luis Potosí,340,81,56,3,30,4,86,7,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Sinaloa,769,1031,42,50,110,134,152,184,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Sonora,76,798,2,105,5,146,7,251,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Tabasco,916,894,48,73,34,72,82,145,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Tamaulipas,941,234,82,11,62,6,144,17,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Tlaxcala,4,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Veracruz,1544,1122,98,75,118,69,216,144,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Yucatán,429,228,16,6,23,3,39,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,8,Zacatecas,5,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1063232/Pano_dengue_08.pdf,2026-11-10T00:32:41+00:00
+2026,9,Aguascalientes,110,17,2,0,5,0,7,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Baja California,18,26,0,1,0,0,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Baja California Sur,284,357,5,26,11,33,16,59,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Campeche,213,176,6,3,2,4,8,7,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Chiapas,782,417,26,9,69,13,95,22,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Chihuahua,8,2,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Ciudad de México,60,22,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Coahuila,89,59,3,0,8,1,11,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Colima,736,302,8,0,12,0,20,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Durango,24,9,0,0,3,0,3,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Guanajuato,229,110,1,2,9,1,10,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Guerrero,1840,657,59,2,112,7,171,9,3,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Hidalgo,71,49,6,1,8,2,14,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Jalisco,3354,909,183,8,257,6,440,14,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Michoacán,1087,330,76,12,89,15,165,27,1,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Morelos,1138,546,8,1,25,1,33,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,México,108,46,5,0,6,2,11,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Nayarit,759,375,8,3,32,25,40,28,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Nuevo León,207,111,9,0,19,0,28,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Oaxaca,445,300,6,2,6,9,12,11,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Puebla,405,150,7,0,14,1,21,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Querétaro,124,20,11,0,2,1,13,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Quintana Roo,905,620,13,29,17,12,30,41,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,San Luis Potosí,378,94,60,3,32,5,92,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Sinaloa,814,1111,43,53,121,140,164,193,1,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Sonora,85,853,2,110,5,149,7,259,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Tabasco,1037,1033,61,91,45,79,106,170,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Tamaulipas,1074,272,91,11,74,6,165,17,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Tlaxcala,4,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Veracruz,1747,1260,116,78,139,80,255,158,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Yucatán,477,257,19,6,27,3,46,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,9,Zacatecas,5,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1064831/Pano_dengue_09.pdf,2026-11-10T00:32:54+00:00
+2026,10,Aguascalientes,118,18,2,0,6,0,8,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Baja California,19,28,0,1,0,0,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Baja California Sur,303,390,5,28,12,36,17,64,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Campeche,236,193,6,3,3,4,9,7,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Chiapas,880,479,32,9,76,15,108,24,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Chihuahua,9,4,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Ciudad de México,67,23,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Coahuila,94,65,3,0,8,1,11,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Colima,828,327,9,0,14,0,23,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Durango,24,9,1,0,3,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Guanajuato,238,122,1,2,10,1,11,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Guerrero,2066,733,62,3,124,7,186,10,3,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Hidalgo,96,55,7,1,8,2,15,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Jalisco,3577,1016,194,9,264,7,458,16,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Michoacán,1202,355,85,13,95,17,180,30,1,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Morelos,1322,621,9,1,30,1,39,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,México,117,47,5,0,6,2,11,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Nayarit,806,416,8,5,39,29,47,34,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Nuevo León,226,124,9,0,19,0,28,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Oaxaca,494,326,6,2,6,9,12,11,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Puebla,456,183,12,1,17,1,29,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Querétaro,133,26,11,0,2,1,13,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Quintana Roo,1031,702,13,34,20,15,33,49,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,San Luis Potosí,425,105,63,3,36,5,99,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Sinaloa,854,1210,45,59,126,157,171,216,1,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Sonora,95,912,2,116,5,159,7,275,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Tabasco,1162,1211,73,108,51,94,124,202,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Tamaulipas,1189,309,100,12,82,7,182,19,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Tlaxcala,4,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Veracruz,1991,1425,126,90,152,89,278,179,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Yucatán,530,294,19,6,28,3,47,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,10,Zacatecas,6,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1066113/Pano_dengue_SE10.pdf,2026-11-10T00:32:42+00:00
+2026,11,Aguascalientes,125,19,2,0,6,0,8,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Baja California,21,30,0,1,0,0,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Baja California Sur,318,421,5,30,12,37,17,67,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Campeche,272,208,6,3,3,4,9,7,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Chiapas,994,543,36,10,81,20,117,30,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Chihuahua,10,4,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Ciudad de México,76,26,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Coahuila,94,67,3,0,9,1,12,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Colima,889,341,10,0,14,0,24,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Durango,24,9,1,0,3,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Guanajuato,253,132,1,2,10,1,11,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Guerrero,2301,783,65,3,139,8,204,11,3,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Hidalgo,144,61,8,1,9,3,17,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Jalisco,3759,1108,199,10,275,7,474,17,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Michoacán,1300,385,90,13,102,17,192,30,1,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Morelos,1527,687,10,1,32,1,42,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,México,139,51,7,0,7,2,14,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Nayarit,853,449,8,6,41,31,49,37,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Nuevo León,247,136,9,0,20,0,29,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Oaxaca,544,347,7,2,7,9,14,11,0,1,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Puebla,507,192,14,1,17,1,31,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Querétaro,154,28,11,0,3,1,14,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Quintana Roo,1172,766,17,36,22,16,39,52,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,San Luis Potosí,460,113,68,3,36,5,104,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Sinaloa,909,1272,46,62,133,165,179,227,1,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Sonora,102,964,2,124,6,167,8,291,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Tabasco,1301,1308,86,115,55,103,141,218,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Tamaulipas,1311,329,108,12,84,9,192,21,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Tlaxcala,5,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Veracruz,2279,1520,139,94,162,95,301,189,0,1,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Yucatán,589,322,20,6,29,3,49,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,11,Zacatecas,6,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1067442/Pano_dengue_11.pdf,2026-11-10T00:32:42+00:00
+2026,12,Aguascalientes,128,20,2,0,6,0,8,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Baja California,23,33,0,1,0,1,0,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Baja California Sur,325,455,6,32,12,42,18,74,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Campeche,301,242,6,3,3,4,9,7,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Chiapas,1083,619,39,13,90,20,129,33,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Chihuahua,13,7,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Ciudad de México,76,28,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Coahuila,97,76,3,0,9,2,12,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Colima,937,360,12,0,18,0,30,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Durango,24,13,1,0,3,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Guanajuato,272,141,1,2,11,1,12,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Guerrero,2517,853,67,4,147,9,214,13,3,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Hidalgo,157,68,9,1,9,3,18,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Jalisco,3917,1204,206,10,281,7,487,17,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Michoacán,1359,414,101,14,106,21,207,35,1,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Morelos,1673,733,11,1,33,1,44,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,México,153,58,9,0,8,2,17,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Nayarit,906,476,9,6,42,34,51,40,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Nuevo León,263,150,9,0,20,0,29,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Oaxaca,609,383,7,3,7,9,14,12,0,1,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Puebla,557,204,15,1,17,1,32,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Querétaro,161,33,11,0,3,1,14,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Quintana Roo,1262,848,17,37,24,18,41,55,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,San Luis Potosí,487,124,72,3,39,5,111,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Sinaloa,945,1343,46,65,134,169,180,234,1,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Sonora,114,1013,2,131,6,175,8,306,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Tabasco,1422,1459,92,125,57,115,149,240,0,1,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Tamaulipas,1422,361,118,12,87,10,205,22,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Tlaxcala,6,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Veracruz,2468,1661,152,101,184,108,336,209,0,1,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Yucatán,651,356,21,6,32,3,53,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,12,Zacatecas,7,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1069544/Pano_dengue_SE12.pdf,2026-11-10T00:32:42+00:00
+2026,13,Aguascalientes,132,21,2,0,6,0,8,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Baja California,25,34,0,1,0,1,0,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Baja California Sur,345,488,6,35,12,44,18,79,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Campeche,327,257,7,3,3,5,10,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Chiapas,1189,665,42,14,92,24,134,38,2,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Chihuahua,13,9,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Ciudad de México,84,31,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Coahuila,107,78,3,0,9,2,12,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Colima,985,376,14,0,19,0,33,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Durango,25,13,1,0,3,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Guanajuato,300,141,1,2,12,1,13,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Guerrero,2720,888,70,4,157,10,227,14,3,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Hidalgo,172,70,9,1,9,3,18,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Jalisco,4106,1275,219,10,296,7,515,17,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Michoacán,1431,432,101,16,108,22,209,38,1,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Morelos,1882,753,12,1,33,1,45,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,México,179,60,9,0,8,2,17,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Nayarit,928,493,9,7,43,35,52,42,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Nuevo León,288,161,9,0,20,0,29,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Oaxaca,666,418,7,3,9,9,16,12,0,1,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Puebla,630,214,15,1,20,1,35,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Querétaro,174,34,11,0,3,1,14,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Quintana Roo,1355,900,20,38,24,19,44,57,1,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,San Luis Potosí,526,128,75,3,43,5,118,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Sinaloa,982,1392,48,70,134,180,182,250,4,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Sonora,127,1040,2,135,6,186,8,321,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Tabasco,1574,1568,106,139,64,119,170,258,0,1,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Tamaulipas,1544,375,127,12,97,10,224,22,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Tlaxcala,6,0,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Veracruz,2706,1749,168,106,193,110,361,216,0,1,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Yucatán,711,376,24,6,33,3,57,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,13,Zacatecas,7,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1070362/Pano_dengue_SE13.pdf,2026-11-10T00:32:43+00:00
+2026,14,Aguascalientes,146,25,2,0,6,0,8,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Baja California,27,35,0,1,0,1,0,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Baja California Sur,361,519,8,41,13,55,21,96,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Campeche,336,293,7,3,3,5,10,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Chiapas,1310,718,51,14,102,24,153,38,2,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Chihuahua,15,11,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Ciudad de México,86,37,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Coahuila,116,87,3,0,9,2,12,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Colima,1014,399,14,0,19,0,33,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Durango,26,16,1,0,3,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Guanajuato,328,150,1,2,12,1,13,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Guerrero,2926,926,73,4,169,10,242,14,3,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Hidalgo,192,74,11,1,10,3,21,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Jalisco,4279,1388,227,11,309,7,536,18,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Michoacán,1515,452,107,16,114,23,221,39,1,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Morelos,2128,800,12,1,34,1,46,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,México,209,67,12,0,12,2,24,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Nayarit,961,520,9,9,46,35,55,44,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Nuevo León,326,184,9,1,20,0,29,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Oaxaca,730,448,7,3,10,9,17,12,0,1,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Puebla,688,235,19,1,21,1,40,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Querétaro,192,37,11,0,3,1,14,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Quintana Roo,1467,958,20,41,28,20,48,61,1,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,San Luis Potosí,566,136,78,3,44,5,122,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Sinaloa,1019,1468,49,72,137,185,186,257,4,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Sonora,132,1100,2,138,6,195,8,333,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Tabasco,1724,1763,121,154,75,132,196,286,0,1,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Tamaulipas,1681,404,132,13,102,11,234,24,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Tlaxcala,6,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Veracruz,2938,1868,182,107,202,119,384,226,0,1,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Yucatán,776,417,26,6,35,3,61,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,14,Zacatecas,7,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1071633/Pano_dengue_14.pdf,2026-11-10T00:32:43+00:00
+2026,15,Aguascalientes,148,29,2,0,6,0,8,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Baja California,28,41,0,1,0,1,0,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Baja California Sur,384,551,9,44,13,62,22,106,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Campeche,350,312,7,3,4,6,11,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Chiapas,1432,760,54,14,110,24,164,38,2,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Chihuahua,15,11,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Ciudad de México,89,41,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Coahuila,124,93,3,0,9,2,12,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Colima,1050,415,14,0,20,0,34,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Durango,28,16,1,0,3,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Guanajuato,339,160,1,2,12,1,13,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Guerrero,3121,973,77,4,179,10,256,14,3,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Hidalgo,207,80,12,1,11,3,23,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Jalisco,4440,1507,240,13,317,7,557,20,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Michoacán,1601,469,115,16,123,24,238,40,1,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Morelos,2349,864,14,1,35,1,49,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,México,243,74,17,0,13,2,30,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Nayarit,1030,555,9,12,51,39,60,51,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Nuevo León,363,205,9,1,20,1,29,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Oaxaca,788,498,8,4,10,10,18,14,0,1,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Puebla,752,253,22,1,21,2,43,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Querétaro,209,39,11,0,4,1,15,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Quintana Roo,1590,1033,21,43,30,21,51,64,1,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,San Luis Potosí,610,152,81,3,46,5,127,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Sinaloa,1059,1552,51,92,139,194,190,286,4,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Sonora,143,1169,2,150,6,218,8,368,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Tabasco,1856,1950,131,159,78,139,209,298,0,1,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Tamaulipas,1819,438,142,13,109,12,251,25,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Tlaxcala,6,2,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Veracruz,3155,2012,203,120,216,123,419,243,0,1,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Yucatán,841,451,26,6,41,3,67,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,15,Zacatecas,8,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1073336/Pano_dengue_15.pdf,2026-11-10T00:32:43+00:00
+2026,16,Aguascalientes,150,32,2,0,6,0,8,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Baja California,28,43,0,1,0,1,0,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Baja California Sur,394,575,9,44,13,65,22,109,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Campeche,358,344,7,3,5,6,12,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Chiapas,1506,827,60,14,110,26,170,40,2,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Chihuahua,15,15,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Ciudad de México,91,45,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Coahuila,132,101,3,0,9,2,12,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Colima,1075,431,14,0,21,0,35,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Durango,28,18,1,0,3,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Guanajuato,352,170,1,2,12,1,13,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Guerrero,3268,1035,78,4,185,10,263,14,3,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Hidalgo,213,85,14,1,11,3,25,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Jalisco,4554,1611,252,14,322,9,574,23,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Michoacán,1649,487,119,16,128,24,247,40,1,1,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Morelos,2494,917,15,1,35,1,50,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,México,263,78,19,0,14,2,33,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Nayarit,1070,592,10,12,52,41,62,53,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Nuevo León,386,227,9,1,21,1,30,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Oaxaca,820,554,8,4,10,10,18,14,0,1,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Puebla,773,271,23,1,20,2,43,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Querétaro,219,43,11,0,4,1,15,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Quintana Roo,1651,1093,21,45,31,21,52,66,1,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,San Luis Potosí,625,176,83,3,46,5,129,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Sinaloa,1076,1612,51,98,142,210,193,308,4,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Sonora,152,1246,2,161,6,233,8,394,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Tabasco,1952,2146,139,167,84,145,223,312,0,1,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Tamaulipas,1916,488,145,13,112,13,257,26,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Tlaxcala,6,2,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Veracruz,3285,2125,222,122,232,127,454,249,0,1,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Yucatán,869,504,27,6,45,3,72,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,16,Zacatecas,9,1,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1075620/Pano_dengue_16.pdf,2026-11-10T00:32:44+00:00
+2026,17,Aguascalientes,157,34,2,0,6,0,8,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Baja California,30,44,0,1,0,1,0,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Baja California Sur,413,603,10,46,13,69,23,115,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Campeche,378,365,7,4,5,6,12,10,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Chiapas,1596,885,60,14,115,31,175,45,2,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Chihuahua,15,17,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Ciudad de México,97,45,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Coahuila,139,108,3,0,9,2,12,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Colima,1105,442,14,0,22,0,36,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Durango,29,18,1,0,3,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Guanajuato,361,177,1,3,12,2,13,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Guerrero,3420,1069,81,4,187,10,268,14,5,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Hidalgo,215,86,14,1,11,3,25,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Jalisco,4695,1710,265,14,326,14,591,28,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Michoacán,1730,503,121,16,129,24,250,40,1,1,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Morelos,2651,972,16,1,35,1,51,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,México,278,78,20,0,14,2,34,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Nayarit,1119,614,10,12,52,42,62,54,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Nuevo León,419,248,9,1,22,1,31,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Oaxaca,858,592,8,4,10,10,18,14,0,1,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Puebla,832,285,25,1,21,2,46,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Querétaro,228,46,11,0,4,1,15,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Quintana Roo,1743,1150,24,46,32,21,56,67,1,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,San Luis Potosí,664,185,85,3,50,5,135,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Sinaloa,1119,1663,53,100,144,219,197,319,5,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Sonora,160,1325,2,166,6,246,8,412,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Tabasco,2065,2333,144,173,88,151,232,324,1,1,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Tamaulipas,2026,530,147,16,112,15,259,31,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Tlaxcala,7,2,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Veracruz,3500,2231,228,131,240,132,468,263,0,1,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Yucatán,922,535,28,6,45,3,73,9,1,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,17,Zacatecas,10,2,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1077461/Pano_dengue_17.pdf,2026-11-10T00:32:44+00:00
+2026,18,Aguascalientes,162,37,2,0,6,0,8,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Baja California,30,44,0,1,0,1,0,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Baja California Sur,420,635,11,48,15,72,26,120,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Campeche,403,386,7,4,5,6,12,10,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Chiapas,1659,963,63,16,120,38,183,54,2,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Chihuahua,15,19,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Ciudad de México,107,50,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Coahuila,150,119,3,0,9,2,12,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Colima,1142,453,14,0,24,0,38,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Durango,30,18,1,0,3,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Guanajuato,384,197,1,2,12,2,13,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Guerrero,3561,1110,84,4,191,10,275,14,5,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Hidalgo,226,91,15,1,11,3,26,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Jalisco,4815,1833,275,18,332,14,607,32,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Michoacán,1812,532,129,16,135,24,264,40,1,1,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Morelos,2831,1027,17,1,36,1,53,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,México,306,83,21,0,14,2,35,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Nayarit,1150,646,13,13,53,44,66,57,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Nuevo León,440,276,9,1,22,1,31,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Oaxaca,882,635,8,4,11,10,19,14,0,1,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Puebla,877,304,25,1,21,3,46,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Querétaro,236,55,11,0,4,1,15,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Quintana Roo,1820,1235,24,50,34,22,58,72,1,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,San Luis Potosí,700,205,88,3,50,5,138,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Sinaloa,1149,1723,55,107,147,226,202,333,5,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Sonora,168,1418,2,182,7,268,9,450,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Tabasco,2147,2467,151,181,103,164,254,345,1,1,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Tamaulipas,2108,560,151,16,113,15,264,31,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Tlaxcala,8,2,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Veracruz,3721,2402,248,133,255,137,503,270,0,1,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Yucatán,965,579,28,6,45,3,73,9,1,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,18,Zacatecas,10,3,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1078853/Pano_dengue_SE18.pdf,2026-11-10T00:32:45+00:00
+2026,19,Aguascalientes,169,41,2,0,6,0,8,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Baja California,33,47,0,1,0,1,0,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Baja California Sur,430,657,11,50,17,78,28,128,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Campeche,433,411,7,4,5,6,12,10,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Chiapas,1761,1026,64,16,122,39,186,55,2,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Chihuahua,15,20,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Ciudad de México,111,54,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Coahuila,155,125,3,0,9,2,12,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Colima,1187,467,14,0,24,0,38,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Durango,32,19,1,0,3,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Guanajuato,419,215,3,3,14,2,17,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Guerrero,3736,1168,83,4,198,11,281,15,5,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Hidalgo,235,97,17,1,11,3,28,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Jalisco,4974,1976,296,20,341,17,637,37,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Michoacán,1915,563,131,18,138,24,269,42,1,1,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Morelos,3004,1073,17,1,37,1,54,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,México,325,86,22,0,14,2,36,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Nayarit,1182,662,13,15,53,46,66,61,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Nuevo León,481,296,9,1,23,1,32,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Oaxaca,973,671,8,4,12,10,20,14,0,1,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Puebla,922,327,26,1,21,3,47,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Querétaro,258,70,12,0,5,1,17,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Quintana Roo,1937,1320,24,52,35,23,59,75,1,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,San Luis Potosí,735,215,93,3,50,6,143,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Sinaloa,1184,1780,55,111,154,238,209,349,5,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Sonora,176,1545,2,211,9,294,11,505,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Tabasco,2226,2612,151,183,113,168,264,351,1,1,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Tamaulipas,2221,590,154,17,115,15,269,32,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Tlaxcala,8,2,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Veracruz,3973,2488,260,140,272,153,532,293,0,1,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Yucatán,1011,605,28,7,47,3,75,10,1,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,19,Zacatecas,10,3,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1080036/Pano_dengue_19.pdf,2026-11-10T00:32:45+00:00
+2026,20,Aguascalientes,174,44,2,0,6,0,8,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Baja California,34,49,0,1,0,1,0,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Baja California Sur,443,695,12,53,17,84,29,137,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Campeche,452,428,7,5,5,6,12,11,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Chiapas,1850,1097,68,17,130,45,198,62,2,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Chihuahua,15,21,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Ciudad de México,114,57,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Coahuila,160,141,3,0,9,2,12,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Colima,1245,482,15,0,25,0,40,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Durango,33,21,1,0,3,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Guanajuato,447,238,6,4,17,2,23,6,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Guerrero,3917,1221,86,4,203,11,289,15,5,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Hidalgo,245,101,18,1,11,3,29,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Jalisco,5116,2146,315,26,357,21,672,47,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Michoacán,2016,588,147,18,147,26,294,44,1,1,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Morelos,3140,1125,18,1,38,1,56,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,México,342,91,22,0,14,2,36,2,1,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Nayarit,1221,687,13,15,54,49,67,64,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Nuevo León,525,326,9,3,23,1,32,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Oaxaca,1063,726,8,4,15,10,23,14,0,1,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Puebla,971,348,27,1,24,3,51,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Querétaro,273,76,13,0,5,1,18,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Quintana Roo,2038,1408,25,55,36,29,61,84,1,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,San Luis Potosí,780,223,94,3,53,6,147,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Sinaloa,1214,1831,57,118,159,247,216,365,5,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Sonora,192,1676,2,228,10,328,12,556,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Tabasco,2335,2739,154,189,116,175,270,364,1,1,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Tamaulipas,2332,611,158,17,117,15,275,32,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Tlaxcala,9,2,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Veracruz,4304,2644,272,140,286,154,558,294,0,1,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Yucatán,1058,637,30,7,49,3,79,10,1,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,20,Zacatecas,11,3,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1081109/Pano_dengue_20.pdf,2026-11-10T00:32:45+00:00
+2026,21,Aguascalientes,183,53,2,0,6,0,8,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Baja California,36,53,0,1,0,1,0,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Baja California Sur,465,741,12,58,17,88,29,146,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Campeche,466,450,8,5,5,7,13,12,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Chiapas,1974,1165,75,19,139,48,214,67,2,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Chihuahua,16,22,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Ciudad de México,121,58,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Coahuila,179,153,3,0,10,2,13,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Colima,1276,504,15,0,25,0,40,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Durango,36,22,1,0,3,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Guanajuato,490,260,16,4,18,3,34,7,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Guerrero,4096,1274,88,5,217,12,305,17,5,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Hidalgo,262,108,18,1,11,3,29,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Jalisco,5341,2299,342,29,364,27,706,56,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Michoacán,2125,616,160,20,151,27,311,47,1,1,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Morelos,3313,1186,18,1,38,2,56,3,1,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,México,363,104,22,2,19,3,41,5,1,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Nayarit,1259,719,14,15,55,53,69,68,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Nuevo León,565,364,9,3,23,1,32,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Oaxaca,1136,770,8,5,17,11,25,16,0,1,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Puebla,1038,368,31,1,24,4,55,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Querétaro,296,83,14,0,6,1,20,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Quintana Roo,2145,1487,25,61,38,33,63,94,1,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,San Luis Potosí,822,234,96,3,55,6,151,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Sinaloa,1242,1887,59,124,162,254,221,378,5,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Sonora,206,1776,2,252,10,360,12,612,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Tabasco,2431,2848,156,191,121,184,277,375,1,1,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Tamaulipas,2472,645,159,17,121,14,280,31,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Tlaxcala,9,3,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Veracruz,4607,2780,301,148,301,166,602,314,0,1,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Yucatán,1127,681,31,7,51,3,82,10,1,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,21,Zacatecas,12,5,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1082560/Pano_dengue_21.pdf,2026-11-10T00:32:46+00:00
+2026,22,Aguascalientes,199,55,2,0,6,0,8,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Baja California,39,57,0,1,0,3,0,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Baja California Sur,483,777,12,60,19,90,31,150,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Campeche,482,479,8,6,5,8,13,14,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Chiapas,2112,1250,79,22,145,55,224,77,2,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Chihuahua,16,25,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Ciudad de México,130,60,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Coahuila,195,170,3,0,10,2,13,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Colima,1318,530,16,0,26,0,42,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Durango,38,22,1,0,3,0,4,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Guanajuato,541,289,23,8,23,3,46,11,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Guerrero,4246,1310,90,5,228,12,318,17,5,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Hidalgo,274,116,21,1,11,3,32,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Jalisco,5630,2458,380,31,375,29,755,60,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Michoacán,2220,647,164,21,157,31,321,52,1,1,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Morelos,3469,1248,20,1,40,2,60,3,1,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,México,401,113,29,2,22,3,51,5,1,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Nayarit,1296,751,15,16,55,56,70,72,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Nuevo León,606,402,10,3,24,2,34,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Oaxaca,1228,833,8,5,18,12,26,17,0,1,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Puebla,1097,386,33,1,26,5,59,6,2,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Querétaro,316,93,14,0,6,1,20,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Quintana Roo,2231,1577,26,63,40,35,66,98,2,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,San Luis Potosí,865,248,101,3,58,7,159,10,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Sinaloa,1283,1935,62,125,165,259,227,384,5,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Sonora,213,1863,2,273,11,389,13,662,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Tabasco,2529,2930,159,193,121,190,280,383,1,1,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Tamaulipas,2583,693,162,17,125,14,287,31,1,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Tlaxcala,9,3,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Veracruz,4916,2943,310,164,305,178,615,342,0,1,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Yucatán,1186,730,31,7,52,3,83,10,1,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,22,Zacatecas,15,5,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1083658/Pano_dengue_22.pdf,2026-11-10T00:32:46+00:00
+2026,23,Aguascalientes,209,62,2,0,6,1,8,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Baja California,44,60,0,1,0,3,0,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Baja California Sur,497,792,14,62,20,94,34,156,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Campeche,502,518,8,6,5,8,13,14,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Chiapas,2241,1315,91,25,156,62,247,87,2,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Chihuahua,17,33,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Ciudad de México,135,63,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Coahuila,214,190,3,0,10,2,13,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Colima,1366,542,16,0,27,0,43,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Durango,38,26,1,0,3,1,4,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Guanajuato,616,312,46,10,34,4,80,14,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Guerrero,4390,1359,91,5,231,13,322,18,5,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Hidalgo,297,122,24,1,11,3,35,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Jalisco,5914,2615,405,37,382,30,787,67,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Michoacán,2310,681,170,21,169,31,339,52,1,1,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Morelos,3612,1345,22,1,41,3,63,4,1,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,México,433,121,30,3,26,3,56,6,1,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Nayarit,1339,801,15,16,55,63,70,79,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Nuevo León,671,456,11,4,27,1,38,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Oaxaca,1309,898,8,5,19,14,27,19,0,1,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Puebla,1148,417,36,1,27,5,63,6,2,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Querétaro,342,97,20,0,6,1,26,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Quintana Roo,2320,1665,27,69,41,38,68,107,2,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,San Luis Potosí,915,263,105,3,58,7,163,10,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Sinaloa,1336,1983,62,132,166,269,228,401,5,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Sonora,227,1987,5,292,12,412,17,704,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Tabasco,2631,3010,160,195,122,197,282,392,1,1,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Tamaulipas,2688,735,162,19,128,16,290,35,1,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Tlaxcala,9,3,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Veracruz,5261,3108,324,171,320,183,644,354,0,1,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Yucatán,1254,833,32,7,54,3,86,10,1,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,23,Zacatecas,15,6,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1084731/Pano_dengue_23.pdf,2026-11-10T00:32:46+00:00
+2026,24,Aguascalientes,218,67,2,0,6,2,8,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Baja California,48,63,0,1,0,3,0,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Baja California Sur,517,824,15,65,22,97,37,162,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Campeche,518,553,8,6,5,8,13,14,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Chiapas,2398,1375,105,28,161,65,266,93,2,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Chihuahua,17,34,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Ciudad de México,139,66,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Coahuila,232,203,3,0,10,2,13,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Colima,1431,565,16,0,27,0,43,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Durango,38,27,1,0,3,1,4,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Guanajuato,711,344,63,11,41,6,104,17,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Guerrero,4571,1430,92,5,234,13,326,18,5,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Hidalgo,317,127,26,1,11,3,37,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Jalisco,6244,2833,435,44,402,34,837,78,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Michoacán,2436,746,177,23,178,31,355,54,1,1,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Morelos,3727,1457,23,1,43,3,66,4,1,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,México,460,134,37,3,29,4,66,7,1,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Nayarit,1395,854,15,18,58,65,73,83,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Nuevo León,717,502,13,4,27,1,40,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Oaxaca,1402,989,8,5,19,14,27,19,0,1,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Puebla,1235,458,39,3,34,8,73,11,2,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Querétaro,401,100,34,0,9,1,43,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Quintana Roo,2429,1792,31,71,41,42,72,113,2,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,San Luis Potosí,957,287,108,3,59,8,167,11,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Sinaloa,1401,2038,63,138,172,271,235,409,5,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Sonora,260,2096,7,320,19,435,26,755,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Tabasco,2731,3104,160,198,123,203,283,401,1,1,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Tamaulipas,2819,788,163,20,131,16,294,36,1,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Tlaxcala,9,3,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Veracruz,5613,3307,338,186,333,201,671,387,0,1,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Yucatán,1327,933,32,7,54,4,86,11,1,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,24,Zacatecas,15,23,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1086100/Pano_dengue_24.pdf,2026-11-10T00:32:47+00:00
+2026,25,Aguascalientes,224,74,2,0,7,2,9,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Baja California,48,65,0,1,0,3,0,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Baja California Sur,535,860,19,65,24,98,43,163,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Campeche,543,584,8,6,5,9,13,15,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Chiapas,2551,1447,108,29,163,71,271,100,2,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Chihuahua,19,34,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Ciudad de México,147,68,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Coahuila,251,230,3,0,12,2,15,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Colima,1504,597,16,0,27,0,43,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Durango,41,31,1,0,3,1,4,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Guanajuato,815,384,91,13,49,7,140,20,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Guerrero,4713,1518,98,5,241,13,339,18,5,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Hidalgo,332,134,30,1,12,3,42,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Jalisco,6564,3096,474,49,412,38,886,87,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Michoacán,2578,798,194,24,189,34,383,58,1,1,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Morelos,3932,1605,24,1,45,3,69,4,1,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,México,480,141,40,3,31,4,71,7,1,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Nayarit,1464,913,21,19,59,68,80,87,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Nuevo León,783,552,13,4,27,1,40,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Oaxaca,1491,1099,9,5,21,16,30,21,0,1,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Puebla,1333,516,57,7,35,8,92,15,2,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Querétaro,442,103,41,0,11,1,52,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Quintana Roo,2510,1892,31,75,42,44,73,119,2,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,San Luis Potosí,996,313,114,3,64,8,178,11,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Sinaloa,1456,2086,64,140,179,274,243,414,5,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Sonora,282,2216,7,333,24,465,31,798,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Tabasco,2819,3210,165,206,126,208,291,414,1,1,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Tamaulipas,2893,850,165,20,131,16,296,36,1,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Tlaxcala,10,3,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Veracruz,5909,3534,363,213,349,215,712,428,0,1,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Yucatán,1405,1015,34,8,54,4,88,12,1,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,25,Zacatecas,15,9,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1087050/Pano_dengue_25.pdf,2026-11-10T00:32:59+00:00
+2026,26,Aguascalientes,230,83,2,1,7,3,9,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Baja California,54,69,0,1,0,4,0,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Baja California Sur,554,905,21,65,26,102,47,167,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Campeche,566,618,8,6,6,10,14,16,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Chiapas,2771,1535,112,37,172,76,284,113,2,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Chihuahua,19,35,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Ciudad de México,149,69,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Coahuila,265,243,3,0,12,2,15,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Colima,1565,637,16,0,27,0,43,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Durango,43,35,1,0,3,1,4,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Guanajuato,900,416,103,19,58,8,161,27,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Guerrero,4876,1577,101,5,251,14,352,19,5,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Hidalgo,344,137,31,1,12,3,43,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Jalisco,6895,3354,495,51,422,39,917,90,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Michoacán,2682,851,212,24,206,35,418,59,1,1,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Morelos,4091,1757,25,4,45,4,70,8,1,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,México,499,160,49,5,32,4,81,9,1,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Nayarit,1533,987,22,22,60,72,82,94,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Nuevo León,828,589,13,4,27,1,40,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Oaxaca,1632,1224,10,5,24,16,34,21,0,1,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Puebla,1406,573,62,8,39,9,101,17,2,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Querétaro,459,104,48,0,11,1,59,1,0,1,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Quintana Roo,2601,2002,31,78,42,46,73,124,2,1,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,San Luis Potosí,1046,331,118,3,69,8,187,11,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Sinaloa,1514,2153,64,146,184,275,248,421,5,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Sonora,313,2319,10,357,30,494,40,851,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Tabasco,2918,3289,168,212,129,212,297,424,1,1,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Tamaulipas,2978,900,168,22,132,17,300,39,1,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Tlaxcala,10,3,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Veracruz,6219,3768,369,229,362,225,731,454,0,2,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Yucatán,1461,1068,34,8,56,6,90,14,1,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,26,Zacatecas,19,9,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1088887/Pano_dengue_26.pdf,2026-11-10T00:33:00+00:00
+2026,27,Aguascalientes,238,98,2,1,7,4,9,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Baja California,55,69,0,1,0,4,0,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Baja California Sur,572,955,22,68,29,110,51,178,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Campeche,592,649,8,6,6,10,14,16,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Chiapas,3030,1625,118,40,186,82,304,122,2,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Chihuahua,20,35,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Ciudad de México,150,71,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Coahuila,286,254,3,0,12,2,15,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Colima,1650,680,16,0,28,0,44,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Durango,43,39,1,0,3,1,4,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Guanajuato,994,450,113,21,60,10,173,31,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Guerrero,5042,1658,103,5,259,14,362,19,5,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Hidalgo,365,148,37,2,14,3,51,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Jalisco,7287,3592,510,54,432,41,942,95,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Michoacán,2811,909,227,26,215,37,442,63,1,1,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Morelos,4312,1917,26,4,47,4,73,8,1,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,México,515,181,49,7,34,4,83,11,1,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Nayarit,1625,1059,22,23,63,72,85,95,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Nuevo León,870,630,13,4,27,1,40,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Oaxaca,1755,1325,10,5,25,16,35,21,0,1,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Puebla,1506,609,70,12,43,10,113,22,2,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Querétaro,476,110,50,0,11,1,61,1,0,1,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Quintana Roo,2718,2093,31,84,43,49,74,133,2,1,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,San Luis Potosí,1106,351,122,4,70,8,192,12,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Sinaloa,1582,2203,65,147,189,283,254,430,5,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Sonora,346,2412,11,374,38,524,49,898,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Tabasco,3010,3369,173,219,129,221,302,440,1,1,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Tamaulipas,3064,955,173,22,135,19,308,41,1,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Tlaxcala,11,3,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Veracruz,6533,4025,391,263,382,236,773,499,0,2,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Yucatán,1547,1141,35,8,57,7,92,15,1,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,27,Zacatecas,20,9,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1090265/Pano_dengue_27.pdf,2026-11-10T00:33:00+00:00
+2026,28,Aguascalientes,243,107,2,1,7,4,9,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Baja California,58,71,0,1,0,4,0,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Baja California Sur,599,1005,24,68,31,114,55,182,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Campeche,643,685,8,6,6,10,14,16,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Chiapas,3209,1698,124,50,205,96,329,146,2,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Chihuahua,25,35,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Ciudad de México,157,73,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Coahuila,304,268,3,0,13,3,16,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Colima,1733,723,17,0,28,0,45,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Durango,45,46,1,0,3,1,4,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Guanajuato,1060,487,123,26,67,13,190,39,1,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Guerrero,5227,1734,106,5,268,15,374,20,5,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Hidalgo,387,158,41,3,14,3,55,6,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Jalisco,7726,3816,535,56,440,46,975,102,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Michoacán,2945,979,230,30,222,40,452,70,3,1,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Morelos,4514,2020,27,8,50,4,77,12,2,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,México,530,194,50,8,34,5,84,13,1,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Nayarit,1728,1117,24,23,64,74,88,97,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Nuevo León,932,666,13,4,29,1,42,5,1,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Oaxaca,1902,1437,10,5,28,17,38,22,2,1,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Puebla,1570,659,70,12,43,11,113,23,2,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Querétaro,504,113,50,0,11,1,61,1,0,1,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Quintana Roo,2823,2200,31,96,45,57,76,153,2,1,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,San Luis Potosí,1177,371,130,4,72,8,202,12,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Sinaloa,1645,2248,68,148,192,285,260,433,5,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Sonora,383,2490,19,392,47,546,66,938,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Tabasco,3116,3458,175,225,130,228,305,453,3,1,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Tamaulipas,3242,1000,177,26,139,20,316,46,1,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Tlaxcala,12,4,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Veracruz,6893,4300,401,284,392,248,793,532,0,2,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Yucatán,1631,1230,36,8,58,7,94,15,2,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,28,Zacatecas,21,10,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1092100/Pano_dengue__SE28.pdf,2026-11-10T00:33:00+00:00
+2026,29,Aguascalientes,258,116,2,1,7,6,9,7,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Baja California,61,72,0,1,0,4,0,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Baja California Sur,623,1069,26,69,33,116,59,185,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Campeche,684,709,8,7,6,11,14,18,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Chiapas,3445,1781,128,55,218,102,346,157,2,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Chihuahua,29,35,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Ciudad de México,159,81,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Coahuila,328,289,4,0,13,3,17,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Colima,1828,755,17,0,28,0,45,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Durango,46,53,1,0,3,1,4,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Guanajuato,1164,528,139,28,73,16,212,44,1,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Guerrero,5412,1794,107,5,271,15,378,20,5,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Hidalgo,402,168,47,3,14,3,61,6,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Jalisco,8164,4067,547,57,450,48,997,105,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Michoacán,3074,1037,248,30,234,41,482,71,3,1,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Morelos,4691,2123,27,9,52,5,79,14,2,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,México,557,212,53,10,37,5,90,15,1,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Nayarit,1843,1177,25,24,66,79,91,103,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Nuevo León,995,693,14,5,29,1,43,6,1,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Oaxaca,2054,1518,10,6,31,18,41,24,2,1,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Puebla,1659,692,81,15,45,13,126,28,2,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Querétaro,522,116,50,0,11,1,61,1,0,1,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Quintana Roo,2932,2316,33,104,50,63,83,167,2,1,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,San Luis Potosí,1263,399,135,5,75,9,210,14,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Sinaloa,1700,2275,74,153,197,289,271,442,5,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Sonora,439,2544,28,401,62,561,90,962,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Tabasco,3198,3539,178,234,137,237,315,471,3,1,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Tamaulipas,3416,1033,187,26,142,21,329,47,1,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Tlaxcala,12,4,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Veracruz,7264,4547,422,299,409,262,831,561,0,2,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Yucatán,1703,1319,36,8,59,8,95,16,2,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,29,Zacatecas,21,13,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1094759/Pano_dengue_29.pdf,2026-11-10T00:33:01+00:00
+2026,30,Aguascalientes,274,124,2,2,7,8,9,10,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Baja California,61,73,0,1,0,4,0,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Baja California Sur,655,1142,26,69,39,117,65,186,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Campeche,720,727,8,7,6,11,14,18,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Chiapas,3643,1859,132,61,237,110,369,171,2,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Chihuahua,34,39,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Ciudad de México,160,86,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Coahuila,358,309,4,0,13,3,17,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Colima,1910,792,17,0,28,1,45,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Durango,50,56,1,0,3,1,4,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Guanajuato,1237,567,144,38,79,18,223,56,1,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Guerrero,5610,1851,115,5,280,15,395,20,5,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Hidalgo,430,183,51,3,14,3,65,6,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Jalisco,8614,4291,575,67,474,51,1049,118,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Michoacán,3228,1103,259,34,241,44,500,78,3,1,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Morelos,4892,2220,27,10,56,5,83,15,2,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,México,579,226,55,11,38,5,93,16,1,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Nayarit,1956,1255,26,28,69,81,95,109,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Nuevo León,1064,727,16,5,29,1,45,6,1,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Oaxaca,2148,1596,15,7,38,21,53,28,2,1,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Puebla,1737,728,85,15,53,14,138,29,2,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Querétaro,544,128,51,0,13,1,64,1,0,1,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Quintana Roo,3050,2435,35,118,52,67,87,185,2,1,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,San Luis Potosí,1343,439,136,5,86,9,222,14,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Sinaloa,1789,2332,75,156,201,291,276,447,5,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Sonora,512,2621,54,415,80,577,134,992,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Tabasco,3301,3643,184,241,142,247,326,488,3,1,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Tamaulipas,3573,1074,195,27,147,23,342,50,1,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Tlaxcala,13,4,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Veracruz,7645,4849,453,324,434,290,887,614,0,2,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Yucatán,1776,1375,37,8,60,9,97,17,2,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,30,Zacatecas,21,14,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097058/Pano_dengue_30.pdf,2026-11-10T00:33:01+00:00
+2026,31,Aguascalientes,287,137,2,5,8,10,10,15,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Baja California,63,76,0,1,0,4,0,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Baja California Sur,684,1187,33,68,44,129,77,197,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Campeche,772,751,8,7,6,12,14,19,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Chiapas,3799,1897,137,65,253,116,390,181,2,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Chihuahua,35,41,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Ciudad de México,164,95,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Coahuila,391,327,5,0,13,3,18,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Colima,1961,812,17,0,28,1,45,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Durango,57,60,1,0,3,1,4,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Guanajuato,1319,609,151,42,86,21,237,63,1,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Guerrero,5762,1916,115,6,291,15,406,21,5,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Hidalgo,448,192,58,3,19,3,77,6,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Jalisco,9096,4519,601,76,495,52,1096,128,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Michoacán,3368,1174,287,39,251,49,538,88,3,1,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Morelos,5089,2302,34,11,56,7,90,18,2,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,México,604,254,57,12,40,6,97,18,1,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Nayarit,2052,1305,27,29,70,81,97,110,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Nuevo León,1118,761,18,6,31,4,49,10,1,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Oaxaca,2243,1684,15,9,40,25,55,34,2,1,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Puebla,1803,759,93,15,54,14,147,29,2,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Querétaro,567,139,51,0,14,1,65,1,0,1,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Quintana Roo,3184,2542,41,124,58,72,99,196,2,1,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,San Luis Potosí,1439,494,147,8,95,10,242,18,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Sinaloa,1868,2393,80,162,215,296,295,458,5,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Sonora,601,2705,70,425,91,588,161,1013,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Tabasco,3386,3729,188,263,145,256,333,519,3,1,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Tamaulipas,3732,1108,202,28,149,23,351,51,1,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Tlaxcala,13,4,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Veracruz,8067,5155,485,358,456,302,941,660,0,2,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Yucatán,1865,1449,36,10,60,10,96,20,2,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,31,Zacatecas,22,16,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1097987/Pano_dengue_31.pdf,2026-11-10T00:33:01+00:00
+2026,32,Aguascalientes,297,175,2,12,9,22,11,34,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Baja California,72,78,0,1,0,5,0,6,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Baja California Sur,713,1247,37,72,50,133,87,205,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Campeche,819,788,8,7,8,14,16,21,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Chiapas,3941,1962,139,72,259,124,398,196,2,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Chihuahua,40,42,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Ciudad de México,170,104,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Coahuila,422,347,5,0,13,3,18,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Colima,1999,840,17,0,28,1,45,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Durango,67,62,1,0,4,1,5,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Guanajuato,1441,646,160,47,100,25,260,72,1,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Guerrero,5938,1968,120,6,296,16,416,22,5,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Hidalgo,476,195,66,3,19,3,85,6,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Jalisco,9556,4690,650,83,512,56,1162,139,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Michoacán,3540,1258,297,47,267,62,564,109,3,1,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Morelos,5260,2386,37,13,60,8,97,21,2,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,México,634,267,57,29,43,6,100,35,1,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Nayarit,2133,1373,29,29,71,81,100,110,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Nuevo León,1180,784,18,6,33,4,51,10,1,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Oaxaca,2374,1756,19,9,43,26,62,35,2,1,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Puebla,1878,798,101,15,57,14,158,29,2,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Querétaro,600,147,51,0,14,1,65,1,0,1,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Quintana Roo,3276,2649,45,130,60,78,105,208,2,1,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,San Luis Potosí,1557,513,168,10,101,12,269,22,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Sinaloa,1966,2467,83,168,224,302,307,470,5,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Sonora,727,2788,95,444,110,603,205,1047,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Tabasco,3461,3812,192,278,148,268,340,546,3,1,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Tamaulipas,3832,1138,217,30,153,23,370,53,1,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Tlaxcala,14,5,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Veracruz,8436,5409,516,392,494,334,1010,726,0,2,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Yucatán,1933,1508,38,12,61,11,99,23,2,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,32,Zacatecas,23,17,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1099143/Pano_dengue_32.pdf,2026-11-10T00:33:02+00:00
+2026,33,Aguascalientes,312,218,3,21,9,34,12,55,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Baja California,75,84,0,1,0,5,0,6,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Baja California Sur,748,1333,42,74,52,135,94,209,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Campeche,887,819,9,10,11,17,20,27,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Chiapas,4083,2051,153,77,277,134,430,211,2,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Chihuahua,47,42,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Ciudad de México,183,112,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Coahuila,455,366,5,0,14,4,19,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Colima,2036,874,17,0,28,1,45,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Durango,72,65,1,0,4,1,5,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Guanajuato,1570,686,167,52,114,29,281,81,1,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Guerrero,6045,2051,128,6,303,17,431,23,5,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Hidalgo,497,212,72,6,22,4,94,10,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Jalisco,9982,4917,664,85,530,60,1194,145,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Michoacán,3692,1321,320,48,281,65,601,113,3,1,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Morelos,5429,2502,40,14,61,9,101,23,2,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,México,655,324,60,43,44,11,104,54,1,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Nayarit,2219,1484,30,30,77,84,107,114,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Nuevo León,1246,809,20,6,34,6,54,12,1,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Oaxaca,2510,1829,26,10,59,31,85,41,2,1,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Puebla,1942,842,111,18,61,16,172,34,2,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Querétaro,621,162,51,0,14,1,65,1,0,1,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Quintana Roo,3387,2748,52,138,66,79,118,217,2,1,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,San Luis Potosí,1708,543,188,14,108,16,296,30,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Sinaloa,2124,2557,92,177,239,309,331,486,5,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Sonora,962,2867,160,452,141,613,301,1065,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Tabasco,3554,3954,199,289,155,281,354,570,3,1,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Tamaulipas,3971,1161,231,30,161,23,392,53,1,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Tlaxcala,15,6,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Veracruz,8897,5696,566,423,551,373,1117,796,0,2,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Yucatán,2010,1586,39,13,61,14,100,27,2,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,33,Zacatecas,25,17,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1100572/Pano_dengue_33.pdf,2026-11-10T00:33:02+00:00
+2026,34,Aguascalientes,329,300,6,36,11,45,17,81,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Baja California,82,88,0,1,0,5,0,6,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Baja California Sur,773,1395,44,74,59,137,103,211,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Campeche,959,853,10,10,11,17,21,27,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Chiapas,4230,2152,163,84,289,157,452,241,2,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Chihuahua,50,44,0,0,1,1,1,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Ciudad de México,192,117,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Coahuila,508,385,6,0,15,4,21,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Colima,2091,893,17,0,28,1,45,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Durango,77,65,1,0,4,1,5,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Guanajuato,1734,743,205,62,131,33,336,95,1,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Guerrero,6178,2106,129,7,309,18,438,25,5,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Hidalgo,524,232,81,6,24,4,105,10,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Jalisco,10461,5133,699,91,554,63,1253,154,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Michoacán,3900,1402,335,53,293,68,628,121,3,1,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Morelos,5601,2599,43,14,65,13,108,27,2,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,México,674,353,60,55,46,14,106,69,1,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Nayarit,2302,1596,33,33,83,89,116,122,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Nuevo León,1299,837,21,7,35,7,56,14,1,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Oaxaca,2709,1885,26,11,67,31,93,42,2,1,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Puebla,2008,886,118,21,62,22,180,43,2,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Querétaro,649,174,52,0,16,1,68,1,0,1,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Quintana Roo,3512,2838,54,147,73,85,127,232,2,1,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,San Luis Potosí,1810,575,207,15,116,18,323,33,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Sinaloa,2263,2664,113,196,252,318,365,514,5,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Sonora,1193,2947,279,466,158,630,437,1096,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Tabasco,3640,4085,200,302,159,290,359,592,3,1,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Tamaulipas,4104,1191,248,30,163,23,411,53,1,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Tlaxcala,15,6,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Veracruz,9441,5986,611,447,611,401,1222,848,0,2,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Yucatán,2098,1652,40,13,65,15,105,28,2,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,34,Zacatecas,25,18,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1101723/Pano_dengue_SE34.pdf,2026-11-10T00:33:02+00:00
+2026,36,Aguascalientes,356,499,9,98,13,77,22,175,0,1,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Baja California,90,105,0,4,1,4,1,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Baja California Sur,840,1544,47,81,66,150,113,231,0,1,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Campeche,1106,947,10,18,11,24,21,42,0,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Chiapas,4545,2428,171,98,327,209,498,307,3,2,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Chihuahua,66,45,0,0,1,1,1,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Ciudad de México,213,129,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Coahuila,645,450,20,1,34,11,54,12,0,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Colima,2203,955,17,0,28,2,45,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Durango,86,79,1,5,4,2,5,7,0,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Guanajuato,2152,883,277,77,170,46,447,123,1,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Guerrero,6425,2266,131,7,319,22,450,29,5,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Hidalgo,584,266,108,15,28,7,136,22,0,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Jalisco,11493,5543,782,106,603,70,1385,176,1,1,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Michoacán,4258,1570,362,72,329,73,691,145,4,2,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Morelos,5877,2784,43,15,68,15,111,30,4,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,México,728,427,73,73,54,18,127,91,2,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Nayarit,2527,1877,38,36,91,107,129,143,1,2,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Nuevo León,1419,899,21,7,36,9,57,16,1,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Oaxaca,3107,1989,29,18,104,38,133,56,3,1,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Puebla,2197,954,148,26,78,22,226,48,2,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Querétaro,699,188,59,0,23,1,82,1,1,1,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Quintana Roo,3749,3064,66,178,86,104,152,282,3,2,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,San Luis Potosí,2108,618,238,18,137,20,375,38,0,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Sinaloa,2687,2892,194,237,300,343,494,580,6,2,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Sonora,1652,3273,444,506,208,662,652,1168,0,5,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Tabasco,3904,4361,215,324,172,323,387,647,3,3,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Tamaulipas,4328,1235,276,32,171,24,447,56,4,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Tlaxcala,15,6,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Veracruz,10578,6675,766,510,748,465,1514,975,2,3,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Yucatán,2254,1850,44,19,68,20,112,39,2,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,36,Zacatecas,27,18,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1103583/Pano_dengue_36.pdf,2026-11-10T00:33:03+00:00
+2026,37,Aguascalientes,377,579,10,122,14,93,24,215,0,1,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Baja California,91,108,1,4,1,4,2,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Baja California Sur,906,1652,53,84,74,159,127,243,0,1,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Campeche,1199,975,10,23,12,25,22,48,0,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Chiapas,4781,2563,184,102,346,225,530,327,3,2,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Chihuahua,73,58,0,0,1,1,1,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Ciudad de México,215,130,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Coahuila,742,471,34,5,48,13,82,18,0,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Colima,2258,989,17,0,29,2,46,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Durango,92,82,2,5,4,2,6,7,0,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Guanajuato,2441,930,323,85,203,53,526,138,1,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Guerrero,6597,2353,136,8,324,23,460,31,5,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Hidalgo,642,281,129,17,37,7,166,24,0,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Jalisco,12000,5683,805,110,623,74,1428,184,1,1,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Michoacán,4488,1635,382,79,343,77,725,156,4,2,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Morelos,6036,2837,44,18,74,16,118,34,4,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,México,770,468,81,95,59,20,140,115,2,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Nayarit,2660,1994,41,42,104,113,145,155,1,2,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Nuevo León,1478,932,21,7,37,9,58,16,1,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Oaxaca,3291,2037,31,20,122,41,153,61,3,1,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Puebla,2281,992,163,38,78,23,241,61,2,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Querétaro,726,189,61,0,24,1,85,1,1,1,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Quintana Roo,3877,3158,71,200,97,110,168,310,3,2,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,San Luis Potosí,2215,628,270,18,152,20,422,38,0,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Sinaloa,3040,2989,225,248,326,344,551,592,6,2,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Sonora,1843,3514,496,574,233,696,729,1270,0,5,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Tabasco,4095,4472,224,333,179,336,403,669,3,3,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Tamaulipas,4404,1255,283,32,179,25,462,57,4,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Tlaxcala,16,6,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Veracruz,11104,6972,846,539,843,494,1689,1033,2,3,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Yucatán,2335,1916,47,23,70,22,117,45,2,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,37,Zacatecas,28,18,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1105057/Pano_dengue_SE37.pdf,2026-11-10T00:33:03+00:00
+2026,38,Aguascalientes,390,675,10,154,14,111,24,265,0,1,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Baja California,93,110,2,4,1,4,3,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Baja California Sur,986,1836,61,91,74,172,135,263,0,1,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Campeche,1242,1019,11,24,12,26,23,50,0,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Chiapas,4801,2748,187,115,346,245,533,360,3,2,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Chihuahua,77,61,0,1,1,2,1,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Ciudad de México,219,136,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Coahuila,822,516,47,5,48,18,95,23,0,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Colima,2304,1028,17,0,29,2,46,2,0,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Durango,94,85,2,5,4,4,6,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Guanajuato,2707,1026,365,93,203,68,568,161,1,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Guerrero,6702,2444,137,8,324,23,461,31,5,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Hidalgo,678,300,145,20,37,7,182,27,0,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Jalisco,12372,5909,838,122,623,78,1461,200,1,1,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Michoacán,4673,1715,399,89,343,82,742,171,4,2,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Morelos,6127,2926,45,19,74,17,119,36,4,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,México,789,489,84,101,59,22,143,123,2,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Nayarit,2777,2164,51,44,104,120,155,164,1,2,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Nuevo León,1534,964,21,7,37,12,58,19,1,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Oaxaca,3385,2090,34,20,122,45,156,65,3,1,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Puebla,2368,1034,176,43,78,24,254,67,2,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Querétaro,733,192,61,0,24,1,85,1,1,1,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Quintana Roo,3966,3309,82,219,97,117,179,336,3,2,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,San Luis Potosí,2293,647,279,20,152,21,431,41,0,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Sinaloa,3362,3105,266,270,326,353,592,623,6,2,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Sonora,2029,3835,516,622,233,743,749,1365,0,5,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Tabasco,4232,4648,239,354,179,348,418,702,3,3,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Tamaulipas,4455,1281,287,32,179,25,466,57,4,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Tlaxcala,16,6,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Veracruz,11462,7429,885,582,843,537,1728,1119,2,3,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Yucatán,2401,1999,48,28,70,23,118,51,2,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,38,Zacatecas,32,19,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1106665/Pano_dengue_SE38.pdf,2026-11-10T00:33:04+00:00
+2026,39,Aguascalientes,415,762,13,187,17,140,30,327,0,1,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Baja California,100,116,2,4,1,4,3,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Baja California Sur,1143,2109,70,95,87,176,157,271,0,1,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Campeche,1300,1070,12,27,12,28,24,55,0,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Chiapas,4980,2893,196,128,379,264,575,392,3,2,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Chihuahua,80,68,1,1,1,4,2,5,0,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Ciudad de México,225,141,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Coahuila,929,554,80,9,82,30,162,39,0,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Colima,2349,1063,17,1,29,2,46,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Durango,102,87,2,5,4,4,6,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Guanajuato,3074,1117,419,102,298,72,717,174,1,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Guerrero,6890,2489,138,9,334,25,472,34,5,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Hidalgo,712,315,165,21,41,7,206,28,0,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Jalisco,12976,6144,878,128,673,86,1551,214,1,1,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Michoacán,4921,1827,425,103,383,88,808,191,4,2,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Morelos,6243,3008,48,19,81,17,129,36,4,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,México,811,508,88,100,63,24,151,124,2,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Nayarit,2979,2340,58,52,131,129,189,181,1,2,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Nuevo León,1603,983,22,7,39,13,61,20,1,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Oaxaca,3505,2151,35,20,150,45,185,65,3,1,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Puebla,2446,1066,185,45,87,24,272,69,2,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Querétaro,748,196,61,0,26,1,87,1,1,1,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Quintana Roo,4074,3436,86,242,106,119,192,361,3,2,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,San Luis Potosí,2378,661,303,22,183,22,486,44,0,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Sinaloa,3858,3219,315,284,401,360,716,644,6,2,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Sonora,2304,4108,572,686,296,802,868,1488,0,5,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Tabasco,4561,4782,258,355,201,359,459,714,3,3,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Tamaulipas,4532,1311,291,33,181,25,472,58,4,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Tlaxcala,17,7,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Veracruz,11919,7892,940,622,930,563,1870,1185,2,3,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Yucatán,2514,2101,53,30,74,27,127,57,2,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,39,Zacatecas,32,25,0,0,0,1,0,1,0,0,https://www.gob.mx/cms/uploads/attachment/file/1107647/Pano_dengue_SE39.pdf,2026-11-10T00:33:04+00:00
+2026,40,Aguascalientes,428,870,15,210,18,155,33,365,0,1,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Baja California,107,119,3,4,1,4,4,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Baja California Sur,1289,2563,76,121,100,204,176,325,0,1,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Campeche,1378,1129,13,31,15,32,28,63,0,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Chiapas,5131,3051,206,141,393,290,599,431,3,2,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Chihuahua,84,81,1,4,1,8,2,12,0,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Ciudad de México,229,145,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Coahuila,1066,589,116,11,107,36,223,47,0,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Colima,2406,1105,17,1,29,2,46,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Durango,107,89,2,5,4,4,6,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Guanajuato,3375,1206,463,116,324,79,787,195,1,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Guerrero,7062,2564,138,10,337,25,475,35,5,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Hidalgo,746,329,183,22,41,8,224,30,0,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Jalisco,13507,6362,941,133,711,89,1652,222,1,1,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Michoacán,5179,1933,448,128,407,93,855,221,4,2,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Morelos,6355,3079,48,21,82,18,130,39,4,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,México,829,527,90,107,65,23,155,130,2,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Nayarit,3185,2502,66,56,146,138,212,194,1,2,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Nuevo León,1667,1020,23,7,43,14,66,21,1,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Oaxaca,3676,2225,35,20,164,48,199,68,3,1,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Puebla,2532,1106,208,46,92,25,300,71,2,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Querétaro,773,204,63,0,26,1,89,1,1,1,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Quintana Roo,4209,3613,90,271,110,133,200,404,3,2,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,San Luis Potosí,2443,675,310,22,187,23,497,45,0,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Sinaloa,4381,3380,370,298,438,371,808,669,6,2,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Sonora,2715,4544,649,765,341,862,990,1627,0,5,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Tabasco,4843,4981,274,368,210,379,484,747,3,3,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Tamaulipas,4617,1334,293,34,182,27,475,61,4,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Tlaxcala,17,8,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Veracruz,12400,8332,990,660,971,592,1961,1252,2,3,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Yucatán,2739,2190,60,32,79,32,139,64,2,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,40,Zacatecas,33,39,0,9,0,1,0,10,0,0,https://www.gob.mx/cms/uploads/attachment/file/1109393/Pano_dengue_SE_40.pdf,2026-11-10T00:33:04+00:00
+2026,41,Aguascalientes,445,990,20,244,22,179,42,423,0,1,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Baja California,110,123,4,4,1,4,5,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Baja California Sur,1440,3236,96,158,118,245,214,403,0,1,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Campeche,1456,1167,16,33,17,37,33,70,0,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Chiapas,5280,3243,210,155,416,306,626,461,3,2,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Chihuahua,88,94,1,4,1,11,2,15,0,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Ciudad de México,231,151,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Coahuila,1250,626,137,16,132,42,269,58,0,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Colima,2469,1156,17,1,29,2,46,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Durango,114,93,2,5,4,4,6,9,0,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Guanajuato,3726,1256,522,121,380,87,902,208,1,1,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Guerrero,7213,2660,140,10,341,26,481,36,5,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Hidalgo,768,362,187,31,44,8,231,39,0,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Jalisco,14095,6567,986,145,755,97,1741,242,1,2,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Michoacán,5451,2035,466,138,430,99,896,237,4,2,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Morelos,6459,3154,49,22,86,18,135,40,4,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,México,844,541,94,107,66,23,160,130,2,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Nayarit,3391,2657,80,62,167,145,247,207,1,2,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Nuevo León,1737,1068,24,13,43,18,67,31,1,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Oaxaca,3809,2314,35,20,167,49,202,69,3,2,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Puebla,2595,1138,219,46,96,26,315,72,2,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Querétaro,786,211,64,1,26,1,90,2,1,1,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Quintana Roo,4370,3789,91,315,113,153,204,468,3,4,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,San Luis Potosí,2553,695,319,25,203,24,522,49,0,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Sinaloa,4859,3548,438,306,492,377,930,683,6,2,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Sonora,3419,5098,750,895,396,967,1146,1862,0,5,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Tabasco,5197,5174,290,381,219,396,509,777,3,3,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Tamaulipas,4682,1364,298,34,183,28,481,62,4,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Tlaxcala,17,8,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Veracruz,12756,8732,1043,684,1042,611,2085,1295,2,5,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Yucatán,2987,2298,67,41,84,34,151,75,2,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,41,Zacatecas,33,45,0,12,0,1,0,13,0,0,https://www.gob.mx/cms/uploads/attachment/file/1111138/Pano_dengue_SE41.pdf,2026-11-10T00:34:56+00:00
+2026,42,Aguascalientes,463,1096,23,278,23,205,46,483,0,1,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Baja California,119,134,4,4,1,4,5,8,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Baja California Sur,1611,4077,111,165,139,253,250,418,0,1,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Campeche,1505,1212,17,33,19,38,36,71,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Chiapas,5483,3440,216,157,425,312,641,469,3,2,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Chihuahua,90,104,1,9,1,12,2,21,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Ciudad de México,239,158,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Coahuila,1445,658,198,17,156,42,354,59,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Colima,2527,1251,17,1,29,2,46,3,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Durango,124,95,4,6,4,4,8,10,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Guanajuato,4111,1311,565,130,424,94,989,224,1,1,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Guerrero,7389,2757,145,10,344,26,489,36,5,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Hidalgo,777,386,192,38,44,9,236,47,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Jalisco,14641,6783,1040,154,792,102,1832,256,1,2,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Michoacán,5671,2112,490,149,463,106,953,255,4,2,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Morelos,6568,3250,51,23,88,19,139,42,4,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,México,859,565,94,114,67,25,161,139,2,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Nayarit,3605,2854,90,64,186,166,276,230,1,2,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Nuevo León,1798,1109,27,14,43,19,70,33,1,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Oaxaca,3899,2384,35,21,168,50,203,71,3,2,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Puebla,2681,1176,226,51,100,26,326,77,2,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Querétaro,802,216,64,1,26,1,90,2,1,1,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Quintana Roo,4535,4005,97,362,117,171,214,533,3,4,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,San Luis Potosí,2617,708,331,25,206,24,537,49,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Sinaloa,5321,3743,487,339,552,420,1039,759,6,2,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Sonora,4177,5670,862,1021,484,1067,1346,2088,0,5,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Tabasco,5522,5368,309,387,230,408,539,795,3,3,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Tamaulipas,4755,1396,305,34,183,28,488,62,4,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Tlaxcala,18,10,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Veracruz,13142,9053,1088,729,1099,636,2187,1365,2,5,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Yucatán,3244,2403,68,54,90,42,158,96,2,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,42,Zacatecas,33,49,0,12,0,1,0,13,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114221/Pano_dengue__42.pdf,2026-11-10T00:35:09+00:00
+2026,43,Aguascalientes,476,1193,23,314,26,230,49,544,0,1,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Baja California,124,140,4,4,1,6,5,10,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Baja California Sur,1854,4834,136,195,173,341,309,536,0,1,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Campeche,1562,1237,17,34,22,42,39,76,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Chiapas,5650,3603,224,176,440,348,664,524,3,2,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Chihuahua,96,122,1,12,2,13,3,25,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Ciudad de México,242,160,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Coahuila,1643,680,227,18,191,45,418,63,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Colima,2586,1334,17,1,29,3,46,4,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Durango,129,96,4,7,4,4,8,11,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Guanajuato,4525,1373,591,134,493,101,1084,235,1,1,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Guerrero,7572,2839,145,10,348,26,493,36,5,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Hidalgo,814,401,196,43,48,9,244,52,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Jalisco,15196,6958,1094,157,820,107,1914,264,1,2,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Michoacán,5905,2209,509,149,479,108,988,257,4,2,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Morelos,6675,3325,52,24,90,19,142,43,4,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,México,873,583,94,118,71,26,165,144,2,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Nayarit,3790,3031,100,68,211,184,311,252,1,2,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Nuevo León,1905,1150,31,15,45,19,76,34,1,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Oaxaca,4010,2467,37,23,182,57,219,80,3,2,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Puebla,2770,1180,241,55,105,29,346,84,2,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Querétaro,819,218,64,1,26,1,90,2,1,1,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Quintana Roo,4691,4214,103,387,120,183,223,570,3,4,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,San Luis Potosí,2692,727,338,25,212,25,550,50,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Sinaloa,5827,3942,525,365,611,436,1136,801,6,2,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Sonora,4991,6236,1060,1137,578,1176,1638,2313,0,5,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Tabasco,5877,5548,333,400,241,423,574,823,3,3,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Tamaulipas,4852,1435,315,34,184,28,499,62,4,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Tlaxcala,18,10,0,0,0,0,0,0,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Veracruz,13658,9303,1116,773,1141,662,2257,1435,2,5,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Yucatán,3430,2519,70,64,92,47,162,111,2,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
+2026,43,Zacatecas,34,59,0,14,0,1,0,15,0,0,https://www.gob.mx/cms/uploads/attachment/file/1114603/Pano_dengue_43.pdf,2026-11-10T00:34:57+00:00
