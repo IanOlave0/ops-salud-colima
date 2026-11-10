@@ -34,7 +34,15 @@
 Requisito E0: **≥ 36 periodos**. Se cumple en ambas series.
 
 Reporte de extracción: `datos_crudos/_reporte_dengue.json`
-(semanas publicadas: 43 · semanas con datos: 42 · fallos: 1).
+(semanas publicadas: 43 · semanas con datos: 42 · fallos: 0 en la última corrida).
+
+### Evidencia de ejecución automática
+
+- Corrida en GitHub Actions: **exitosa**
+  <https://github.com/IanOlave0/ops-salud-colima/actions/runs/42729434159>
+- Los diez pasos del job `captura` terminaron en verde, incluida la validación de cobertura.
+- Advertencia no bloqueante: `actions/checkout@v4` y `actions/setup-python@v5` corren sobre
+  Node 24 por la deprecación de Node 20; se actualizarán en el siguiente ciclo.
 
 ### Ejecución local
 
@@ -81,10 +89,11 @@ Objetivos definidos en `docs/E0/propuesta.md` §6:
 - [x] Registros PSP de tiempo y defectos
 - [x] 3 objetivos de calidad medibles
 - [x] Ficha técnica (`docs/E0/ENTREGA.md`)
+- [x] Workflow verificado en la nube (corrida exitosa)
+- [x] Tag `e0` creado
 - [ ] Entrevista formal de 15 min documentada
 - [ ] Agregar a los 3 profesores como colaboradores
 - [ ] Registrar el enlace en el formulario oficial
-- [ ] Crear el tag `e0`
 
 ### Comandos pendientes
 
@@ -92,9 +101,8 @@ Objetivos definidos en `docs/E0/propuesta.md` §6:
 # Colaboradores (repetir por profesor)
 gh api -X PUT repos/IanOlave0/ops-salud-colima/collaborators/<usuario> -f permission=push
 
-# Tag de entrega
-git tag -a e0 -m "Entrega E0: propuesta, captura Bronce y sistema de calidad"
-git push origin e0
+# Si se actualiza la propuesta tras la entrevista, mover el tag
+git tag -f -a e0 -m "Entrega E0" && git push -f origin e0
 ```
 
 ---
