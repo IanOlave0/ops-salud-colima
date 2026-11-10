@@ -7,3 +7,5 @@ fecha,actividad,minutos,nota
 2026-11-09,Workflow de GitHub Actions,15,Cron diario 13:00 UTC y commit automatico
 2026-11-09,Redaccion de propuesta y ficha de entrega,50,Incluye analisis etico y objetivos de calidad
 2026-11-09,Depuracion de defectos del extractor,40,Tres defectos corregidos y uno documentado
+2026-11-09,Idempotencia y robustez de la captura,45,Timestamps estables reintentos de API y semana incompleta
+2026-11-09,Verificacion del workflow en la nube,10,Corrida 42729434159 exitosa en GitHub Actions

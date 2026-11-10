@@ -177,14 +177,24 @@ def main() -> int:
             if len(filas) < 30:
                 raise ValueError(f"solo {len(filas)} entidades extraídas")
             for entidad, valores in filas.items():
-                existentes[(ANIO, semana, entidad)] = {
+                clave = (ANIO, semana, entidad)
+                previo = existentes.get(clave)
+                fila = {
                     "anio": ANIO,
                     "semana": semana,
                     "entidad": entidad,
                     **dict(zip(COLUMNAS, valores)),
                     "url": url,
-                    "extraido_en": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                 }
+                # Si los valores no cambiaron, conserva la marca de tiempo original
+                # para no generar commits diarios sin cambios reales.
+                if previo and all(previo.get(k) == str(v) for k, v in fila.items()):
+                    fila["extraido_en"] = previo["extraido_en"]
+                else:
+                    fila["extraido_en"] = datetime.now(timezone.utc).isoformat(
+                        timespec="seconds"
+                    )
+                existentes[clave] = fila
                 nuevas += 1
             reporte[semana] = {"entidades": len(filas), "estado": "ok"}
             print(f"SE {semana:02d}: {len(filas)} entidades")

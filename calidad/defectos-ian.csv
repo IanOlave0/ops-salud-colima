@@ -3,3 +3,6 @@ fecha,fase,tipo,descripcion,causa,severidad,minutos_correccion
 2026-11-09,extraccion,esquema,"Columna entidad vacia en 1344 filas",Faltaba incluir el campo entidad en el diccionario de salida,alta,10
 2026-11-09,extraccion,idempotencia,42 filas vacias persistian tras usar --force,El modo force mezclaba el CSV anterior con el nuevo,media,5
 2026-11-09,extraccion,cobertura,SE 35 sin tabla estatal parseable; 1 semana faltante,El PDF de esa semana no publica la tabla con el formato esperado,baja,0
+2026-11-09,automatizacion,idempotencia,Commit diario sin cambios reales de datos,La marca extraido_en se regeneraba en cada corrida,media,15
+2026-11-09,extraccion,agregacion,Se publicaba la semana ISO en curso con un solo dia,No se excluia la semana incompleta al agregar el clima,alta,10
+2026-11-09,extraccion,disponibilidad,Una ciudad desaparecio del CSV (485 a 388 filas),Fallo transitorio de la API sin reintentos ni respaldo,alta,20
