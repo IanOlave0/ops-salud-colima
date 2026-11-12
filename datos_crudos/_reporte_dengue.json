@@ -1,8 +1,8 @@
 {
   "fuente": "https://www.gob.mx/salud/documentos/panorama-epidemiologico-de-dengue-2026",
-  "semanas_publicadas": 43,
-  "semanas_con_datos": 42,
-  "filas": 1344,
+  "semanas_publicadas": 44,
+  "semanas_con_datos": 43,
+  "filas": 1376,
   "fallidas": [],
   "detalle": {
     "41": {
@@ -14,6 +14,10 @@
       "estado": "ok"
     },
     "43": {
+      "entidades": 32,
+      "estado": "ok"
+    },
+    "44": {
       "entidades": 32,
       "estado": "ok"
     }
