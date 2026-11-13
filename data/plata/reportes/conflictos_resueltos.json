@@ -1,0 +1,17 @@
+{
+  "llave": [
+    "anio",
+    "semana"
+  ],
+  "entidad_en_dengue": "Colima",
+  "ciudad_en_clima": "Colima",
+  "duplicados_dengue": 0,
+  "duplicados_clima": 0,
+  "regla": "Se conserva el registro de origen único; si se repite llave, el registro con extraido_en más reciente prevalece.",
+  "interseccion_semanas": 43,
+  "cobertura_dengue": 43,
+  "cobertura_clima_colima": 97,
+  "semanas_sin_clima": 0,
+  "semanas_sin_dengue": 54,
+  "resumen": "Dengue define la cobertura de Plata integrada; clima se incorpora por llave exacta, sin extrapolar semanas."
+}

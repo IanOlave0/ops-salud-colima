@@ -1,0 +1,6 @@
+{
+  "IQR": 2,
+  "modified_z_3_5": 3,
+  "isolation_forest": 12,
+  "criterio_final": "Marcar (sin eliminar) la unión IQR y modified Z > 3.5; Isolation Forest se compara como diagnóstico. Series climáticas cortas y extremos reales no se recortan."
+}

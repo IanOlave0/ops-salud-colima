@@ -1,0 +1,17 @@
+{
+  "fuentes": {
+    "dengue": 1376,
+    "clima": 485
+  },
+  "integradas": 43,
+  "validos_plata": 127,
+  "validos_plata_publicos": 43,
+  "validos_plata_sinteticos": 84,
+  "cuarentena": 0,
+  "motivos_cuarentena": {},
+  "salidas": [
+    "data/plata/colima_semanal_limpio.parquet",
+    "data/oro/indicadores_semanales_colima.parquet",
+    "data/cuarentena/e1_registros_invalidos.csv"
+  ]
+}

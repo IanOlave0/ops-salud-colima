@@ -1,0 +1,18 @@
+{
+  "n_filas": 43,
+  "faltantes_por_variable": {
+    "probables_2025": 0,
+    "probables_2026": 0,
+    "confirmados_2025": 0,
+    "confirmados_2026": 0,
+    "defunciones_2025": 0,
+    "defunciones_2026": 0,
+    "temp_media_c": 0,
+    "precipitacion_mm": 0,
+    "humedad_media_pct": 0
+  },
+  "mecanismo": "No identificable con datos observacionales agregados y fuente con cobertura desigual (posible MAR por disponibilidad de semana).",
+  "little_test": "No aplicado: los indicadores/clases no son una muestra iid apropiada; se informa patrón por variable.",
+  "tratamiento": "Mediana meteorológica entre semanas con observación para columnas numéricas; guardar bandera antes de imputar. No imputar ni crear semanas ausentes.",
+  "decision_MNAR": "No hay evidencia para afirmar MNAR. Si la falta depende del valor meteorológico no observado, mediana puede sesgar; conservar banderas y no imputar periodos completos evita ocultar esa limitación. Requiere análisis de sensibilidad con más observaciones."
+}

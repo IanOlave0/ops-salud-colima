@@ -77,3 +77,7 @@ MIT — see `LICENSE`.
 ## Entrega E0
 
 Ver `docs/E0/ENTREGA.md`.
+
+## Entrega E1
+
+El pipeline de limpieza, integración y calidad se ejecuta con `python -m pip install -r requirements-e1.txt && make e1`; las pruebas de cuarentena y esquema corren con `make test`. La serie semanal pública integrada se escribe en `data/plata/` y sus indicadores agregados en `data/oro/`. La fuente primaria de inventario continúa pendiente de autorización; el fixture que ejercita su contrato aparece separado y marcado como sintético para pruebas. Ver `docs/E1/ENTREGA.md` y `docs/relatoria-E1.md`.
