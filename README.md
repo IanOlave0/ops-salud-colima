@@ -98,6 +98,14 @@ valid rows to `datos_plata/publico/colima_semanal.csv` and
 imputation; outliers are marked, not removed. See `docs/E1/integracion.md`, `docs/E1/ENTREGA.md`
 and `docs/relatoria-E1.md`.
 
+### E1 prototype history
+
+The original E1 integration prototype by Carlos Ramirez is preserved in the
+[`feature/e1`](https://github.com/IanOlave0/ops-salud-colima/tree/feature/e1) branch
+(commit `6bd4b2f`). Its documentation and integration ideas were reviewed and are credited in
+`docs/E1/ENTREGA.md`; the current hybrid keeps the working parts and corrects the validation and
+publication issues. The branch is kept as evidence of that work.
+
 ## Automation
 
 `.github/workflows/bronce.yml` runs daily at 13:00 UTC (07:00 America/Mexico_City), validates

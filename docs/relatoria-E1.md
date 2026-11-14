@@ -8,11 +8,13 @@ sin registros reales; por eso se construyó un conjunto sintético determinista
 con el mismo contrato, marcado explícitamente en el nombre, en la columna
 `es_sintetico` y en su reporte de procedencia.
 
-También se revisó una implementación alternativa de E1. Se conservaron sus
+También se revisó una implementación alternativa de E1, desarrollada por Carlos
+Ramirez en la rama `feature/e1` (commit `6bd4b2f`). Se conservaron sus
 entregables documentales y la idea de integrar dengue con clima, pero se
 descartaron las partes que no cumplían el contrato: validación de unicidad fila
 por fila, escritura del CSV antes de la validación final y banderas de
-imputación calculadas después de imputar.
+imputación calculadas después de imputar. Su rama queda intacta como evidencia
+del trabajo original.
 
 ## 2. Inventario por turno
 

@@ -94,7 +94,19 @@ python3 -m unittest discover -s tests -v
   train.
 - La autorización de la unidad de salud sigue pendiente.
 
-## 8. Checklist de cierre
+## 8. Aporte de la rama `feature/e1`
+
+La primera implementación de la integración fue desarrollada por **Carlos Ramirez**
+en la rama [`feature/e1`](https://github.com/IanOlave0/ops-salud-colima/tree/feature/e1),
+commit `6bd4b2f`. Aportó la ficha técnica, la relatoría, la idea de integrar
+dengue con clima y los reportes de conflictos, faltantes, atípicos y escaladores.
+Su rama se conserva intacta como evidencia del trabajo. El pipeline vigente en
+`main` es el híbrido revisado: conserva esos aportes y corrige la validación de
+unicidad, la escritura de filas inválidas y el orden de las banderas de
+imputación. El detalle está en `docs/E1/integracion.md` y en el historial del
+merge.
+
+## 9. Checklist de cierre
 
 - [x] Generador sintético determinista y marcado.
 - [x] Pipeline de limpieza con banderas y cuarentena.
