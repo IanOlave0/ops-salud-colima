@@ -9,6 +9,18 @@ __pycache__/
 *.tmp
 *.log
 
+# Datos reales y derivados: nunca se publican
+datos_crudos/*
+!datos_crudos/.gitkeep
+!datos_crudos/dengue_estados_semanal.csv
+!datos_crudos/clima_ciudades_semanal.csv
+!datos_crudos/_reporte_dengue.json
+!datos_crudos/inventario_turno_sintetico.csv
+!datos_crudos/_reporte_sintetico.json
+datos_plata/
+datos_oro/
+cuarentena/
+
 # Editores y sistema
 .vscode/
 .idea/

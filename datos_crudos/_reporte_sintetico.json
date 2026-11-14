@@ -1,0 +1,60 @@
+{
+  "es_sintetico": true,
+  "version": "1.0",
+  "seed": 42,
+  "inicio": "2026-07-01",
+  "fin": "2026-10-28",
+  "dias": 120,
+  "unidades": [
+    "U01",
+    "U02"
+  ],
+  "insumos": [
+    {
+      "insumo_id": "INS01",
+      "insumo_nombre": "Paracetamol 500 mg",
+      "familia": "medicamento",
+      "consumo_base": 18
+    },
+    {
+      "insumo_id": "INS02",
+      "insumo_nombre": "Jeringa 5 ml",
+      "familia": "material_curacion",
+      "consumo_base": 25
+    },
+    {
+      "insumo_id": "INS03",
+      "insumo_nombre": "Catéter periférico 20G",
+      "familia": "material_curacion",
+      "consumo_base": 8
+    },
+    {
+      "insumo_id": "INS04",
+      "insumo_nombre": "Guante de nitrilo (par)",
+      "familia": "material_curacion",
+      "consumo_base": 40
+    },
+    {
+      "insumo_id": "INS05",
+      "insumo_nombre": "Cubrebocas tricapa",
+      "familia": "material_curacion",
+      "consumo_base": 30
+    }
+  ],
+  "filas": 3600,
+  "faltantes": {
+    "mcar": 72,
+    "mar": 96,
+    "mnar": 36
+  },
+  "atipicos": 36,
+  "reglas": [
+    "existencia_final = existencia_inicial + entradas - consumo",
+    "sin valores negativos",
+    "llave única (unidad_id, fecha, turno, insumo_id)",
+    "faltantes inyectados: MCAR, MAR (turno nocturno) y MNAR (consumo alto)",
+    "bronce no imputa: los vacíos se conservan"
+  ],
+  "archivo": "datos_crudos/inventario_turno_sintetico.csv",
+  "sha256": "42a410e47814903be196e7f1f2a658cb6fee7bb0b0e60b9010a18cbc85751aac"
+}

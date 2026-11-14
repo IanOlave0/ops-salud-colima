@@ -52,6 +52,52 @@ python src/extract_clima.py
 python src/validar.py
 ```
 
+## Synthetic inventory (Plan B de E1)
+
+While the health unit authorizes the real shift-level records, E1 uses a **deterministic
+synthetic dataset** with the same schema (`docs/E0/esquema-inventario.md`):
+
+```bash
+python src/generar_sintetico.py --seed 42
+python -m unittest discover -s tests -v
+```
+
+Output: `datos_crudos/inventario_turno_sintetico.csv` (3 600 rows, 2 units, 120 days) and
+`datos_crudos/_reporte_sintetico.json` with seed, missingness counters and SHA-256. Every row
+carries `es_sintetico=1`. Missingness is injected with three mechanisms (MCAR, MAR by night
+shift, MNAR by high consumption) plus capture outliers, so the E1 cleaning stage has documented
+defects to diagnose.
+
+### E1 cleaning pipeline
+
+```bash
+python src/preprocesar_inventario.py --input datos_crudos/inventario_turno_sintetico.csv
+```
+
+The pipeline verifies provenance (uniform `es_sintetico` flag plus a matching SHA-256 for
+synthetic sources), validates the Plata contract, quarantines invalid rows with a reason, and
+writes source-specific outputs under `datos_plata/<fuente>/` and `cuarentena/<fuente>/`.
+Plata and quarantine outputs are **never versioned**: they can be regenerated and may contain
+real operational counts. In addition to the public dengue/climate series, only the schema, the
+synthetic generator, its provenance report (`datos_crudos/_reporte_sintetico.json`), the synthetic
+Bronze CSV marked with `es_sintetico=1`, the tests and the E1 documentation are published. Real
+inputs and all Plata/quarantine outputs stay out of Git. See `docs/E1/limpieza.md` for methods and
+limitations.
+
+### E1 public integration
+
+```bash
+python src/integrar_publicos.py
+```
+
+Dengue and climate are joined by an exact `(anio, semana)` key and filtered to
+`entidad=Colima` ↔ `ciudad=Colima`. The pipeline validates the full table, resolves duplicate
+keys with the most recent `extraido_en`, routes invalid rows to quarantine, and writes only
+valid rows to `datos_plata/publico/colima_semanal.csv` and
+`datos_oro/indicadores_semanales_colima.csv`. Missing climate values are flagged before
+imputation; outliers are marked, not removed. See `docs/E1/integracion.md`, `docs/E1/ENTREGA.md`
+and `docs/relatoria-E1.md`.
+
 ## Automation
 
 `.github/workflows/bronce.yml` runs daily at 13:00 UTC (07:00 America/Mexico_City), validates
