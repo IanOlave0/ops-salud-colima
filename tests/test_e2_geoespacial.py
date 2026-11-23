@@ -8,7 +8,7 @@ from pathlib import Path
 
 import geopandas as gpd
 import pandas as pd
-from shapely.geometry import Polygon
+from shapely.geometry import LineString, Polygon
 
 from src.e2.integrar_geoespacial import crear_mapa, integrar_zonas
 
@@ -106,6 +106,12 @@ class IntegracionGeoespacialTest(unittest.TestCase):
         sin_crs = _zonas().set_crs(None, allow_override=True)
         with self.assertRaises(ValueError):
             integrar_zonas(_conteos(), sin_crs, _meta_denue(), _meta_marco())
+
+    def test_rechaza_area_cero(self) -> None:
+        zonas = _zonas().copy()
+        zonas.loc[0, "geometry"] = LineString([(0, 0), (1, 1), (2, 2)])
+        with self.assertRaises(ValueError):
+            integrar_zonas(_conteos(), zonas, _meta_denue(), _meta_marco())
 
     def test_rechaza_zona_conteo_sin_poligono(self) -> None:
         conteos = pd.concat(

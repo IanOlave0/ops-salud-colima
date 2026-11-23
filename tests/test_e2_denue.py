@@ -8,6 +8,7 @@ import tempfile
 import unittest
 import zipfile
 from pathlib import Path
+from unittest import mock
 
 import pandas as pd
 
@@ -17,8 +18,13 @@ from src.e2.descargar_denue import (
     agregar_farmacias,
     extraer_csv,
     guardar_snapshot,
+    main as main_denue,
 )
-from src.e2.descargar_marco import filtrar_marco
+from src.e2.descargar_marco import (
+    _version_metadatos,
+    descargar_marco,
+    filtrar_marco,
+)
 from src.e2.ejecutar_e2 import _verificar_hash
 
 
@@ -123,6 +129,43 @@ class AgregadoDenueTest(unittest.TestCase):
             with self.assertRaises(ValueError):
                 _verificar_hash(ruta, "0" * 64, "snapshot")
             _verificar_hash(ruta, hashlib.sha256(ruta.read_bytes()).hexdigest(), "snapshot")
+
+    def test_main_rechaza_csv_sin_zip(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaises(ErrorDenue):
+                main_denue(
+                    [
+                        "--csv", str(Path(tmp) / "denue.csv"),
+                        "--output-dir", str(Path(tmp) / "out"),
+                    ]
+                )
+
+    def test_version_metadatos(self) -> None:
+        self.assertEqual(
+            _version_metadatos({"metadatos": {"Fuente_informacion_vectorial": "INEGI, Marco Geoestadístico, diciembre de 2025"}}),
+            "2025-12",
+        )
+        self.assertIsNone(
+            _version_metadatos({"metadatos": {"Fuente_informacion_vectorial": "sin fecha"}})
+        )
+
+    def test_descargar_marco_falla_sin_version(self) -> None:
+        respuesta = mock.Mock()
+        respuesta.raise_for_status.return_value = None
+        respuesta.json.return_value = {
+            "metadatos": {"Fuente_informacion_vectorial": "sin fecha"},
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {"cvegeo": "06001", "nomgeo": "Armería"},
+                    "geometry": {"type": "Point", "coordinates": [-103.0, 19.0]},
+                }
+            ],
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            with mock.patch("src.e2.descargar_marco.requests.get", return_value=respuesta):
+                with self.assertRaises(ValueError):
+                    descargar_marco(Path(tmp) / "marco.geojson")
 
 
 if __name__ == "__main__":

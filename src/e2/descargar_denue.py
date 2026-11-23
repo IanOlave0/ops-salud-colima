@@ -27,6 +27,7 @@ from src.e2.catalogo_scian import CODIGOS_FARMACIA
 
 URL_BULK_COLIMA = "https://www.inegi.org.mx/contenidos/masiva/denue/denue_06_csv.zip"
 EDICION_DEFAULT = "05/2026"
+ZIP_SHA256_05_2026 = "948e292e567ce16a8b7485f15846ddaaf9c9cda6fda9be07334bb6afc5480af6"
 ARCHIVO_CSV = "conjunto_de_datos/denue_inegi_06_.csv"
 COLUMNAS_SNAPSHOT = [
     "zona_codigo",
@@ -195,6 +196,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--csv", type=Path, default=None)
     parser.add_argument("--output-dir", type=Path, default=Path("datos_crudos/e2"))
     parser.add_argument("--edicion", default=EDICION_DEFAULT)
+    parser.add_argument("--zip-sha256", default=None)
     args = parser.parse_args(argv)
 
     with tempfile.TemporaryDirectory() as tmp:
@@ -209,6 +211,18 @@ def main(argv: list[str] | None = None) -> int:
         if not zip_sha256:
             raise ErrorDenue(
                 "se requiere --zip (o descarga) para registrar el SHA del insumo"
+            )
+        esperado = args.zip_sha256 or (
+            ZIP_SHA256_05_2026 if args.edicion == EDICION_DEFAULT else None
+        )
+        if not esperado:
+            raise ErrorDenue(
+                "para una edición distinta de 05/2026 debes indicar --zip-sha256"
+            )
+        if zip_sha256 != esperado:
+            raise ErrorDenue(
+                "el ZIP descargado no coincide con el SHA esperado para la edición "
+                f"{args.edicion}"
             )
 
         df = leer_csv_denue(csv_path)

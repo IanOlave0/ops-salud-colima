@@ -144,7 +144,8 @@ def integrar_zonas(
     oro = gdf.merge(plata, on="zona_codigo", how="left", validate="one_to_one")
     proyeccion = oro.to_crs(CRS_METRICO)
     oro["area_km2"] = proyeccion.geometry.area / 1_000_000.0
-    oro.loc[oro["area_km2"] <= 0, "area_km2"] = pd.NA
+    if (oro["area_km2"] <= 0).any():
+        raise ValueError("hay zonas con área cero o negativa")
     oro["farmacias_por_km2"] = oro["farmacias_total"] / oro["area_km2"]
 
     oro["denue_edicion"] = str(metadata_denue["edicion"])
