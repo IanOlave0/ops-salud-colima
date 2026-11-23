@@ -25,3 +25,8 @@ cuarentena/
 .vscode/
 .idea/
 .DS_Store
+
+datos_privados/
+.env
+*.token
+.venv/
