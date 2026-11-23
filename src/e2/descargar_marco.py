@@ -70,19 +70,32 @@ def descargar_marco(
         "version": version,
         "sha256": _sha256(destino),
         "features": str(len(filtrado["features"])),
+        "url": url,
     }
+
+
+def guardar_metadata(datos: dict[str, str], destino: Path) -> Path:
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    destino.write_text(
+        json.dumps(datos, ensure_ascii=False, indent=2, sort_keys=True),
+        encoding="utf-8",
+    )
+    return destino
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=Path("datos_crudos/e2/marco_geoestadistico_zonas.geojson"))
+    parser.add_argument("--metadata", type=Path, default=Path("datos_crudos/e2/marco_snapshot.json"))
     parser.add_argument("--url", default=URL_MARCO_COLIMA)
     parser.add_argument("--version", default=VERSION_DEFAULT)
     args = parser.parse_args(argv)
     datos = descargar_marco(args.output, args.url, args.version)
+    guardar_metadata(datos, args.metadata)
     print(f"Marco: {datos['path']}")
     print(f"Municipios: {datos['features']} · versión: {datos['version']}")
     print(f"sha256: {datos['sha256']}")
+    print(f"Metadata: {args.metadata}")
     return 0
 
 

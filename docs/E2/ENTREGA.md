@@ -107,9 +107,9 @@ mínimos, agregados y atribuidos.
 
 ## 8. Verificación
 
-- Pruebas E2: 16 tests.
-- Suite E1/E2: 89 tests OK.
-- El reporte Bronce conserva el SHA del CSV agregado.
+- Pruebas E2: 20 tests.
+- Suite E1/E2: 93 tests OK.
+- El snapshot Bronce conserva el SHA del CSV agregado y el SHA del ZIP de origen.
 - Los hashes de Bronce E0 no se modifican.
 
 ## 9. Limitaciones

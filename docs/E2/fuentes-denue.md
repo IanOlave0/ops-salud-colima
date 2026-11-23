@@ -10,6 +10,10 @@
 - **Archivo interno usado:** `conjunto_de_datos/denue_inegi_06_.csv`.
 - **Codificación:** Latin-1 (ISO-8859-1).
 - **Cobertura:** 42 073 establecimientos de Colima en el archivo oficial.
+- **SHA-256 del ZIP descargado:**
+  `948e292e567ce16a8b7485f15846ddaaf9c9cda6fda9be07334bb6afc5480af6`.
+  Se registra en `denue_snapshot.json` como `zip_sha256` para verificar el
+  insumo de origen.
 
 ### Campos utilizados
 
@@ -40,6 +44,8 @@ mantiene como `sin_respuesta`/`incompleto` y no se convierte en cero.
 
 - `datos_crudos/e2/denue_cuantificar_zona.csv`
 - `datos_crudos/e2/denue_snapshot.json`
+- `datos_crudos/e2/marco_geoestadistico_zonas.geojson`
+- `datos_crudos/e2/marco_snapshot.json`
 
 El snapshot contiene:
 

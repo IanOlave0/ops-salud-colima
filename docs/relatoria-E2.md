@@ -24,7 +24,9 @@ guardar credenciales y permite reproducir el agregado localmente.
 - Campos usados: `cve_ent`, `cve_mun`, `codigo_act`, `per_ocu`
 
 El código conserva la opción de agregar un cliente API en el futuro, pero la
-entrega actual no depende de él.
+entrega actual no depende de él. La captura real usa el ZIP oficial, cuyo hash
+queda en `zip_sha256`; el CSV extraído se procesa en un directorio temporal y
+se elimina al terminar.
 
 ## 3. Qué se construyó
 

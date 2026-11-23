@@ -97,6 +97,11 @@ def integrar_zonas(
     _validar_metadata(metadata_marco, META_MARCO, "Marco")
     df = _normalizar_conteos(conteos)
     gdf = _validar_zonas(zonas)
+    faltan_poligonos = set(df["zona_codigo"]) - set(gdf["zona_codigo"])
+    if faltan_poligonos:
+        raise ValueError(
+            "zonas con conteo sin polígono: " + ", ".join(sorted(faltan_poligonos))
+        )
 
     actividades = sorted(set(df["actividad_scian"]) | set(CODIGOS_FARMACIA))
     pivot = df.pivot_table(

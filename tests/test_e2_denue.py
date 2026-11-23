@@ -6,6 +6,7 @@ import hashlib
 import json
 import tempfile
 import unittest
+import zipfile
 from pathlib import Path
 
 import pandas as pd
@@ -14,8 +15,11 @@ from src.e2.descargar_denue import (
     COLUMNAS_SNAPSHOT,
     ErrorDenue,
     agregar_farmacias,
+    extraer_csv,
     guardar_snapshot,
 )
+from src.e2.descargar_marco import filtrar_marco
+from src.e2.ejecutar_e2 import _verificar_hash
 
 
 def _fila(
@@ -81,6 +85,44 @@ class AgregadoDenueTest(unittest.TestCase):
         self.assertEqual(meta["edicion"], "05/2026")
         self.assertEqual(meta["sha256"], hash_csv)
         self.assertNotIn("token", json.dumps(meta).lower())
+
+    def test_extrae_solo_csv_del_zip(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            zip_path = raiz / "denue.zip"
+            with zipfile.ZipFile(zip_path, "w") as archivo:
+                archivo.writestr(
+                    "conjunto_de_datos/denue_inegi_06_.csv",
+                    "cve_ent,cve_mun,codigo_act,per_ocu\n06,001,464111,0 a 5 personas\n",
+                )
+            ruta = extraer_csv(zip_path, raiz / "extraido")
+            self.assertTrue(ruta.exists())
+            self.assertEqual(ruta.name, "denue_inegi_06_.csv")
+
+    def test_filtra_marco_a_claves_publicas(self) -> None:
+        payload = {
+            "metadatos": {"Fuente_informacion_vectorial": "INEGI"},
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {"cvegeo": "06001", "nomgeo": "Armería", "pob_total": "27626"},
+                    "geometry": {"type": "Point", "coordinates": [-103.0, 19.0]},
+                }
+            ],
+        }
+        salida = filtrar_marco(payload)
+        props = salida["features"][0]["properties"]
+        self.assertEqual(props["zona_codigo"], "06001")
+        self.assertEqual(props["municipio"], "Armería")
+        self.assertNotIn("nom_estab", props)
+
+    def test_verificar_hash_rechaza_snapshot_alterado(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            ruta = Path(tmp) / "snapshot.csv"
+            ruta.write_text("a,b\n1,2\n", encoding="utf-8")
+            with self.assertRaises(ValueError):
+                _verificar_hash(ruta, "0" * 64, "snapshot")
+            _verificar_hash(ruta, hashlib.sha256(ruta.read_bytes()).hexdigest(), "snapshot")
 
 
 if __name__ == "__main__":

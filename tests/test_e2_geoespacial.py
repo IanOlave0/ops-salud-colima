@@ -106,6 +106,19 @@ class IntegracionGeoespacialTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             integrar_zonas(_conteos(), sin_crs, _meta_denue(), _meta_marco())
 
+    def test_rechaza_zona_conteo_sin_poligono(self) -> None:
+        conteos = pd.concat(
+            [
+                _conteos(),
+                pd.DataFrame(
+                    [{"zona_codigo": "06999", "actividad_scian": "464111", "estrato": "0", "establecimientos": 0, "estado_query": "completo"}]
+                ),
+            ],
+            ignore_index=True,
+        )
+        with self.assertRaises(ValueError):
+            integrar_zonas(conteos, _zonas(), _meta_denue(), _meta_marco())
+
     def test_rechaza_linaje_incompleto(self) -> None:
         with self.assertRaises(ValueError):
             integrar_zonas(_conteos(), _zonas(), {"edicion": "05/2026"}, _meta_marco())

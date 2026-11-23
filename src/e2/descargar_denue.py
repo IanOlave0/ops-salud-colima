@@ -13,6 +13,7 @@ import argparse
 import hashlib
 import json
 import sys
+import tempfile
 import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
@@ -113,6 +114,7 @@ def agregar_farmacias(
         raise ErrorDenue("la fuente no contiene farmacias del catálogo auditado")
 
     limpio["zona_codigo"] = limpio["cve_ent"].str.zfill(2) + limpio["cve_mun"].str.zfill(3)
+    todas_las_zonas = sorted(limpio["zona_codigo"].unique())
     conteos = (
         limpio.groupby(
             ["zona_codigo", "codigo_act", "per_ocu"], sort=True, as_index=False
@@ -128,8 +130,9 @@ def agregar_farmacias(
     )
 
     # Completar combinaciones ausentes con cero observado: el archivo masivo
-    # cubre todos los municipios de la entidad.
-    zonas = sorted(limpio["zona_codigo"].unique())
+    # cubre todos los municipios de la entidad, incluso los que no tienen
+    # farmacias del catálogo.
+    zonas = todas_las_zonas
     actividades = sorted(permitidas)
     completo = pd.MultiIndex.from_product(
         [zonas, actividades], names=["zona_codigo", "actividad_scian"]
@@ -194,30 +197,35 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--edicion", default=EDICION_DEFAULT)
     args = parser.parse_args(argv)
 
-    temporal = Path("/tmp/opencode/denue_06_csv.zip")
-    if args.csv is None:
-        if args.zip is None:
-            descargar_bulk(temporal)
-            args.zip = temporal
-        args.csv = extraer_csv(args.zip, temporal.parent / "denue06")
-    df = leer_csv_denue(args.csv)
-    ingestado_en = datetime.now(timezone.utc).isoformat(timespec="seconds")
-    agregado = agregar_farmacias(
-        df, edicion=args.edicion, ingestado_en=ingestado_en
-    )
-    destinos = guardar_snapshot(
-        agregado,
-        {
-            "edicion": args.edicion,
-            "metodo": "descarga_masiva_entidad",
-            "entidad": "06",
-            "actividades": sorted(CODIGOS_FARMACIA),
-            "estado_query": "completo",
-            "query_id": _query_id(args.edicion, sorted(CODIGOS_FARMACIA)),
-            "ingestado_en": ingestado_en,
-        },
-        args.output_dir,
-    )
+    with tempfile.TemporaryDirectory() as tmp:
+        tmpdir = Path(tmp)
+        if args.csv is None:
+            zip_path = args.zip or descargar_bulk(tmpdir / "denue_06_csv.zip")
+            zip_sha256 = _sha256(zip_path)
+            csv_path = extraer_csv(zip_path, tmpdir / "denue06")
+        else:
+            csv_path = args.csv
+            zip_sha256 = _sha256(args.zip) if args.zip else ""
+
+        df = leer_csv_denue(csv_path)
+        ingestado_en = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        agregado = agregar_farmacias(
+            df, edicion=args.edicion, ingestado_en=ingestado_en
+        )
+        destinos = guardar_snapshot(
+            agregado,
+            {
+                "edicion": args.edicion,
+                "metodo": "descarga_masiva_entidad",
+                "entidad": "06",
+                "actividades": sorted(CODIGOS_FARMACIA),
+                "estado_query": "completo",
+                "query_id": _query_id(args.edicion, sorted(CODIGOS_FARMACIA)),
+                "ingestado_en": ingestado_en,
+                "zip_sha256": zip_sha256,
+            },
+            args.output_dir,
+        )
     print(f"Snapshot: {destinos['csv']}")
     print(f"Metadata: {destinos['metadata']}")
     print(f"Filas: {len(agregado)} · sha256: {destinos['sha256']}")

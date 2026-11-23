@@ -22,6 +22,7 @@ datos_crudos/e2/*
 !datos_crudos/e2/denue_cuantificar_zona.csv
 !datos_crudos/e2/denue_snapshot.json
 !datos_crudos/e2/marco_geoestadistico_zonas.geojson
+!datos_crudos/e2/marco_snapshot.json
 datos_plata/
 datos_oro/
 cuarentena/
