@@ -13,10 +13,11 @@
 - **Atribución:** “Fuente: INEGI, Marco Geoestadístico”.
 - Los polígonos se usan únicamente como base cartográfica; no se modifican ni se redistribuyen como producto independiente.
 
-### 1.3. Análisis de `robots.txt`
-- El sitio `inegi.org.mx` no bloquea a los rastreadores en su `robots.txt`.
-- **No obstante**, el consumo de DENUE se realiza mediante la **API oficial** con token, no mediante scraping masivo. Se respetan los límites de peticiones documentados por el INEGI.
-- El `robots.txt` **no sustituye** los Términos de Libre Uso; la API se rige por estos últimos.
+### 1.3. Análisis de `robots.txt` y consumo de API
+- El archivo `robots.txt` del sitio `inegi.org.mx` permite el acceso a la mayoría de las rutas de consulta pública, pero restringe directorios internos o de administración. 
+- **Práctica del equipo:** No realizamos *scraping* masivo de las rutas bloqueadas ni de las permitidas. Consumimos exclusivamente la **API oficial de DENUE**.
+- **Límites de peticiones:** Tras revisar la documentación de la API del INEGI, **no se encontró un límite de peticiones (rate limit) publicado de forma explícita**. Para ser respetuosos con la infraestructura del INEGI, el equipo implementará pausas conservadoras entre consultas y reintentos limitados, evitando ráfagas de peticiones.
+- El `robots.txt` **no sustituye** los Términos de Libre Uso; el consumo de la API se rige por estos últimos.
 
 ## 2. Privacidad y minimización
 - **Datos personales:** el proyecto **no maneja datos personales de pacientes**.

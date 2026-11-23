@@ -29,4 +29,6 @@ cuarentena/
 datos_privados/
 .env
 *.token
-.venv/
+# Excepción: Permitir la carpeta E2 y su contenido público
+!datos_crudos/e2/
+!datos_crudos/e2/**

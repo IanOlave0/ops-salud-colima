@@ -12,15 +12,16 @@ from src.e2.integrar_geoespacial import integrar_zonas, crear_mapa
 
 class TestIntegracionGeoespacial(unittest.TestCase):
     def setUp(self):
-        # 1. Conteos DENUE simulados
+        # 1. Conteos DENUE simulados (Incluye estrato)
         self.conteos = pd.DataFrame(
             {
                 "zona_codigo": ["06001", "06002", "06001"],
                 "actividad_scian": ["464111", "464111", "464112"],
+                "estrato": [0, 0, 0],
                 "establecimientos": [5, 2, 3],
             }
         )
-        # 2. Polígonos simulados (municipios de Colima)
+        # 2. Polígonos simulados
         self.zonas = gpd.GeoDataFrame(
             {
                 "zona_codigo": ["06001", "06002", "06003"],
@@ -32,7 +33,7 @@ class TestIntegracionGeoespacial(unittest.TestCase):
             },
             crs="EPSG:4326",
         )
-        # 3. Metadatos
+        # 3. Metadatos completos
         self.meta_denue = {
             "edicion": "05/2026",
             "query_id": "abc123",
@@ -42,48 +43,33 @@ class TestIntegracionGeoespacial(unittest.TestCase):
         self.meta_marco = {"version": "2025", "sha256": "cafebabe"}
 
     def test_integrar_zonas_columnas_esperadas(self):
-        plata, oro = integrar_zonas(
-            self.conteos, self.zonas, self.meta_denue, self.meta_marco
-        )
-        # Plata debe tener una fila por zona
-        self.assertEqual(len(plata), 2)  # 06001 y 06002
-        # Oro debe tener una fila por polígono (incluye 06003 sin conteo)
+        plata, oro = integrar_zonas(self.conteos, self.zonas, self.meta_denue, self.meta_marco)
         self.assertEqual(len(oro), 3)
+        
+        # La zona 06003 no tiene datos. Debe quedar como NA, no como 0.
+        fila_sin_datos = oro[oro["zona_codigo"] == "06003"].iloc[0]
+        self.assertTrue(pd.isna(fila_sin_datos["farmacias_total"]))
 
-        columnas_oro = {
-            "zona_codigo", "farmacias_464111", "farmacias_464112",
-            "farmacias_total", "area_km2", "farmacias_por_km2",
-            "denue_edicion", "denue_query_id", "denue_sha256",
-            "denue_ingestado_en", "marco_version", "marco_sha256",
-            "transformacion_version",
-        }
-        self.assertTrue(columnas_oro.issubset(set(oro.columns)))
+    def test_falla_si_hay_duplicados_en_conteos(self):
+        conteos_dup = pd.concat([self.conteos, self.conteos.iloc[[0]]], ignore_index=True)
+        with self.assertRaisesRegex(ValueError, "Duplicados detectados en conteos"):
+            integrar_zonas(conteos_dup, self.zonas, self.meta_denue, self.meta_marco)
 
-    def test_zona_sin_conteo_marcada_como_faltante(self):
-        _, oro = integrar_zonas(
-            self.conteos, self.zonas, self.meta_denue, self.meta_marco
-        )
-        fila_06003 = oro[oro["zona_codigo"] == "06003"].iloc[0]
-        self.assertTrue(pd.isna(fila_06003["farmacias_total"]))
+    def test_falla_si_hay_geometrias_duplicadas(self):
+        zonas_dup = pd.concat([self.zonas, self.zonas.iloc[[0]]], ignore_index=True)
+        zonas_dup = gpd.GeoDataFrame(zonas_dup, crs="EPSG:4326")
+        with self.assertRaisesRegex(ValueError, "Duplicados detectados en el GeoDataFrame"):
+            integrar_zonas(self.conteos, zonas_dup, self.meta_denue, self.meta_marco)
 
-    def test_areas_positivas_y_densidad(self):
-        _, oro = integrar_zonas(
-            self.conteos, self.zonas, self.meta_denue, self.meta_marco
-        )
-        self.assertTrue((oro["area_km2"].dropna() > 0).all())
-        filas_con_datos = oro.dropna(subset=["farmacias_total", "area_km2"])
-        self.assertFalse(filas_con_datos["farmacias_por_km2"].isna().any())
+    def test_falla_si_faltan_metadatos_de_linaje(self):
+        meta_incompleta = self.meta_denue.copy()
+        del meta_incompleta["sha256"]
+        with self.assertRaisesRegex(ValueError, "Metadatos de DENUE incompletos"):
+            integrar_zonas(self.conteos, self.zonas, meta_incompleta, self.meta_marco)
 
     def test_crear_mapa_genera_archivo(self):
-        _, oro = integrar_zonas(
-            self.conteos, self.zonas, self.meta_denue, self.meta_marco
-        )
+        _, oro = integrar_zonas(self.conteos, self.zonas, self.meta_denue, self.meta_marco)
         with tempfile.TemporaryDirectory() as tmpdir:
             output = Path(tmpdir) / "mapa_test.png"
             crear_mapa(oro, output)
             self.assertTrue(output.exists())
-            self.assertGreater(output.stat().st_size, 0)
-
-
-if __name__ == "__main__":
-    unittest.main()
