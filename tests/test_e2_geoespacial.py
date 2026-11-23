@@ -1,88 +1,131 @@
-# tests/test_e2_geoespacial.py
+"""Pruebas de integración geoespacial con contrato E2 estricto."""
+
+from __future__ import annotations
+
+import tempfile
 import unittest
 from pathlib import Path
-import tempfile
 
 import geopandas as gpd
 import pandas as pd
 from shapely.geometry import Polygon
 
-from src.e2.integrar_geoespacial import integrar_zonas, crear_mapa
+from src.e2.integrar_geoespacial import crear_mapa, integrar_zonas
 
 
-class TestIntegracionGeoespacial(unittest.TestCase):
-    def setUp(self):
-        # 1. Conteos DENUE simulados
-        self.conteos = pd.DataFrame(
-            {
-                "zona_codigo": ["06001", "06002", "06001"],
-                "actividad_scian": ["464111", "464111", "464112"],
-                "establecimientos": [5, 2, 3],
-            }
-        )
-        # 2. Polígonos simulados (municipios de Colima)
-        self.zonas = gpd.GeoDataFrame(
-            {
-                "zona_codigo": ["06001", "06002", "06003"],
-                "geometry": [
-                    Polygon([(0, 0), (0, 1), (1, 1), (1, 0)]),
-                    Polygon([(1, 0), (1, 1), (2, 1), (2, 0)]),
-                    Polygon([(2, 0), (2, 1), (3, 1), (3, 0)]),
-                ],
-            },
-            crs="EPSG:4326",
-        )
-        # 3. Metadatos
-        self.meta_denue = {
-            "edicion": "05/2026",
-            "query_id": "abc123",
-            "sha256": "deadbeef",
-            "ingestado_en": "2026-11-23T00:00:00Z",
-        }
-        self.meta_marco = {"version": "2025", "sha256": "cafebabe"}
+def _zonas() -> gpd.GeoDataFrame:
+    return gpd.GeoDataFrame(
+        {
+            "zona_codigo": ["06001", "06002", "06003"],
+            "municipio": ["Colima", "Manzanillo", "Tecomán"],
+            "geometry": [
+                Polygon([(0, 0), (0, 1), (1, 1), (1, 0)]),
+                Polygon([(1, 0), (1, 1), (2, 1), (2, 0)]),
+                Polygon([(2, 0), (2, 1), (3, 1), (3, 0)]),
+            ],
+        },
+        crs="EPSG:4326",
+    )
 
-    def test_integrar_zonas_columnas_esperadas(self):
-        plata, oro = integrar_zonas(
-            self.conteos, self.zonas, self.meta_denue, self.meta_marco
-        )
-        # Plata debe tener una fila por zona
-        self.assertEqual(len(plata), 2)  # 06001 y 06002
-        # Oro debe tener una fila por polígono (incluye 06003 sin conteo)
+
+def _conteos() -> pd.DataFrame:
+    return pd.DataFrame(
+        [
+            {"zona_codigo": "06001", "actividad_scian": "464111", "estrato": "0", "establecimientos": 5, "estado_query": "completo"},
+            {"zona_codigo": "06001", "actividad_scian": "464112", "estrato": "0", "establecimientos": 3, "estado_query": "completo"},
+            {"zona_codigo": "06002", "actividad_scian": "464111", "estrato": "0", "establecimientos": 2, "estado_query": "completo"},
+        ]
+    )
+
+
+def _meta_denue() -> dict[str, str]:
+    return {
+        "edicion": "05/2026",
+        "query_id": "a" * 64,
+        "sha256": "b" * 64,
+        "ingestado_en": "2026-11-23T00:00:00+00:00",
+        "estado_query": "completo",
+    }
+
+
+def _meta_marco() -> dict[str, str]:
+    return {"version": "2025-12", "sha256": "c" * 64}
+
+
+class IntegracionGeoespacialTest(unittest.TestCase):
+    def test_oro_tiene_una_fila_por_zona_y_columnas_de_linaje(self) -> None:
+        plata, oro = integrar_zonas(_conteos(), _zonas(), _meta_denue(), _meta_marco())
+        self.assertEqual(len(plata), 3)
         self.assertEqual(len(oro), 3)
+        self.assertEqual(oro["zona_codigo"].nunique(), len(oro))
+        for columna in (
+            "denue_edicion", "denue_query_id", "denue_sha256", "denue_ingestado_en",
+            "marco_version", "marco_sha256", "transformacion_version",
+        ):
+            self.assertIn(columna, oro.columns)
+            self.assertTrue(oro[columna].notna().all())
+        self.assertEqual(set(oro["denue_edicion"]), {"05/2026"})
 
-        columnas_oro = {
-            "zona_codigo", "farmacias_464111", "farmacias_464112",
-            "farmacias_total", "area_km2", "farmacias_por_km2",
-            "denue_edicion", "denue_query_id", "denue_sha256",
-            "denue_ingestado_en", "marco_version", "marco_sha256",
-            "transformacion_version",
-        }
-        self.assertTrue(columnas_oro.issubset(set(oro.columns)))
+    def test_conteos_completos_y_ceros_explicitos(self) -> None:
+        plata, oro = integrar_zonas(_conteos(), _zonas(), _meta_denue(), _meta_marco())
+        fila = oro.loc[oro["zona_codigo"] == "06001"].iloc[0]
+        self.assertEqual(int(fila["farmacias_464111"]), 5)
+        self.assertEqual(int(fila["farmacias_464112"]), 3)
+        self.assertEqual(int(fila["farmacias_total"]), 8)
+        sin_filas = oro.loc[oro["zona_codigo"] == "06003"].iloc[0]
+        self.assertEqual(int(sin_filas["farmacias_total"]), 0)
+        self.assertEqual(sin_filas["estado_query"], "completo")
 
-    def test_zona_sin_conteo_marcada_como_faltante(self):
-        _, oro = integrar_zonas(
-            self.conteos, self.zonas, self.meta_denue, self.meta_marco
+    def test_respuesta_incompleta_no_se_convierte_en_cero(self) -> None:
+        conteos = pd.concat(
+            [
+                _conteos(),
+                pd.DataFrame(
+                    [{"zona_codigo": "06003", "actividad_scian": "464111", "estrato": "0", "establecimientos": 0, "estado_query": "sin_respuesta"}]
+                ),
+            ],
+            ignore_index=True,
         )
-        fila_06003 = oro[oro["zona_codigo"] == "06003"].iloc[0]
-        self.assertTrue(pd.isna(fila_06003["farmacias_total"]))
+        _, oro = integrar_zonas(conteos, _zonas(), _meta_denue(), _meta_marco())
+        fila = oro.loc[oro["zona_codigo"] == "06003"].iloc[0]
+        self.assertTrue(pd.isna(fila["farmacias_464111"]))
+        self.assertEqual(fila["estado_query"], "incompleto")
 
-    def test_areas_positivas_y_densidad(self):
-        _, oro = integrar_zonas(
-            self.conteos, self.zonas, self.meta_denue, self.meta_marco
-        )
-        self.assertTrue((oro["area_km2"].dropna() > 0).all())
-        filas_con_datos = oro.dropna(subset=["farmacias_total", "area_km2"])
-        self.assertFalse(filas_con_datos["farmacias_por_km2"].isna().any())
+    def test_rechaza_duplicados_en_conteos(self) -> None:
+        conteos = pd.concat([_conteos(), _conteos().iloc[[0]]], ignore_index=True)
+        with self.assertRaises(ValueError):
+            integrar_zonas(conteos, _zonas(), _meta_denue(), _meta_marco())
 
-    def test_crear_mapa_genera_archivo(self):
-        _, oro = integrar_zonas(
-            self.conteos, self.zonas, self.meta_denue, self.meta_marco
+    def test_rechaza_zonas_duplicadas_o_sin_crs(self) -> None:
+        zonas = _zonas()
+        duplicadas = pd.concat([zonas, zonas.iloc[[0]]], ignore_index=True)
+        with self.assertRaises(ValueError):
+            integrar_zonas(_conteos(), gpd.GeoDataFrame(duplicadas, crs="EPSG:4326"), _meta_denue(), _meta_marco())
+
+        sin_crs = _zonas().set_crs(None, allow_override=True)
+        with self.assertRaises(ValueError):
+            integrar_zonas(_conteos(), sin_crs, _meta_denue(), _meta_marco())
+
+    def test_rechaza_linaje_incompleto(self) -> None:
+        with self.assertRaises(ValueError):
+            integrar_zonas(_conteos(), _zonas(), {"edicion": "05/2026"}, _meta_marco())
+
+    def test_densidad_usa_area_metrica(self) -> None:
+        _, oro = integrar_zonas(_conteos(), _zonas(), _meta_denue(), _meta_marco())
+        fila = oro.loc[oro["zona_codigo"] == "06001"].iloc[0]
+        self.assertGreater(fila["area_km2"], 0)
+        self.assertAlmostEqual(
+            fila["farmacias_por_km2"], fila["farmacias_total"] / fila["area_km2"], places=9
         )
-        with tempfile.TemporaryDirectory() as tmpdir:
-            output = Path(tmpdir) / "mapa_test.png"
+
+    def test_mapa_se_genera_sin_puntos_de_unidades(self) -> None:
+        _, oro = integrar_zonas(_conteos(), _zonas(), _meta_denue(), _meta_marco())
+        with tempfile.TemporaryDirectory() as tmp:
+            output = Path(tmp) / "mapa.png"
             crear_mapa(oro, output)
             self.assertTrue(output.exists())
             self.assertGreater(output.stat().st_size, 0)
+        self.assertNotIn("unidad_id", oro.columns)
 
 
 if __name__ == "__main__":

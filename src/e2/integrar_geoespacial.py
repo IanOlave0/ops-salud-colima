@@ -1,26 +1,84 @@
-# src/e2/integrar_geoespacial.py
+#!/usr/bin/env python3
 """Integración geoespacial de conteos DENUE con polígonos del Marco Geoestadístico."""
 
 from __future__ import annotations
 
-import hashlib
+import re
 from pathlib import Path
 from typing import Any
 
 import geopandas as gpd
-import pandas as pd
 import matplotlib.pyplot as plt
+import pandas as pd
 
 from src.e2.catalogo_scian import CODIGOS_FARMACIA
 
+COLUMNAS_CONTEO = [
+    "zona_codigo",
+    "actividad_scian",
+    "estrato",
+    "establecimientos",
+    "estado_query",
+]
+ESTADOS_QUERY = {"completo", "incompleto", "sin_respuesta"}
+_RE_ZONA = re.compile(r"^\d{5}$")
+_RE_SHA = re.compile(r"^[0-9a-f]{64}$")
+META_DENUE = ("edicion", "query_id", "sha256", "ingestado_en", "estado_query")
+META_MARCO = ("version", "sha256")
+TRANSFORMACION_VERSION = "e2-v1"
+CRS_METRICO = "EPSG:6933"
 
-def _sha256_file(path: Path) -> str:
-    """Calcula el SHA-256 de un archivo para el linaje."""
-    h = hashlib.sha256()
-    with path.open("rb") as f:
-        for chunk in iter(lambda: f.read(8192), b""):
-            h.update(chunk)
-    return h.hexdigest()
+
+def _validar_metadata(
+    metadata: dict[str, Any], requeridas: tuple[str, ...], nombre: str
+) -> None:
+    faltan = [clave for clave in requeridas if not str(metadata.get(clave, "")).strip()]
+    if faltan:
+        raise ValueError(f"metadata {nombre} incompleta: faltan {', '.join(faltan)}")
+    for clave in ("sha256",):
+        if clave in requeridas and not _RE_SHA.match(str(metadata[clave])):
+            raise ValueError(f"metadata {nombre}: {clave} no es SHA-256 hexadecimal")
+
+
+def _normalizar_conteos(conteos: pd.DataFrame) -> pd.DataFrame:
+    faltan = [c for c in COLUMNAS_CONTEO if c not in conteos.columns]
+    if faltan:
+        raise ValueError(f"faltan columnas de conteos: {', '.join(faltan)}")
+    df = conteos[COLUMNAS_CONTEO].copy()
+    for columna in ("zona_codigo", "actividad_scian", "estrato", "estado_query"):
+        df[columna] = df[columna].astype(str).str.strip()
+    if not df["zona_codigo"].str.match(_RE_ZONA).all():
+        raise ValueError("zona_codigo debe tener cinco dígitos y conservarse como texto")
+    if not set(df["actividad_scian"]).issubset(set(CODIGOS_FARMACIA)):
+        raise ValueError("actividad_scian fuera del catálogo auditado 464111/464112")
+    if not set(df["estado_query"]).issubset(ESTADOS_QUERY):
+        raise ValueError("estado_query inválido")
+    df["establecimientos"] = pd.to_numeric(df["establecimientos"], errors="coerce")
+    if df["establecimientos"].isna().any() or (df["establecimientos"] < 0).any():
+        raise ValueError("establecimientos debe ser entero no negativo")
+    if df.duplicated(["zona_codigo", "actividad_scian", "estrato"]).any():
+        raise ValueError("conteos duplicados por zona/actividad/estrato")
+    return df
+
+
+def _validar_zonas(zonas: gpd.GeoDataFrame) -> gpd.GeoDataFrame:
+    if not isinstance(zonas, gpd.GeoDataFrame):
+        raise ValueError("zonas debe ser un GeoDataFrame")
+    if zonas.crs is None:
+        raise ValueError("zonas debe declarar CRS")
+    if "zona_codigo" not in zonas.columns or "geometry" not in zonas.columns:
+        raise ValueError("zonas requiere zona_codigo y geometry")
+    gdf = zonas.copy()
+    gdf["zona_codigo"] = gdf["zona_codigo"].astype(str).str.strip()
+    if not gdf["zona_codigo"].str.match(_RE_ZONA).all():
+        raise ValueError("zona_codigo de polígonos debe tener cinco dígitos")
+    if gdf["zona_codigo"].duplicated().any():
+        raise ValueError("zona_codigo duplicada en polígonos")
+    if gdf.geometry.isna().any() or gdf.geometry.is_empty.any():
+        raise ValueError("hay geometrías nulas o vacías")
+    if not gdf.geometry.is_valid.all():
+        raise ValueError("hay geometrías inválidas")
+    return gdf
 
 
 def integrar_zonas(
@@ -29,110 +87,109 @@ def integrar_zonas(
     metadata_denue: dict[str, Any],
     metadata_marco: dict[str, Any],
 ) -> tuple[pd.DataFrame, gpd.GeoDataFrame]:
-    """
-    Une los conteos agregados de DENUE con los polígonos del Marco Geoestadístico.
-    """
-    # 1. Validar que zona_codigo sea texto y conservar ceros (ej. "06001")
-    conteos = conteos.copy()
-    conteos["zona_codigo"] = conteos["zona_codigo"].astype(str).str.zfill(5)
+    """Une conteos DENUE agregados con polígonos y produce Plata/Oro.
 
-    # 2. Pivotear actividades a columnas
-    plata = (
-        conteos.pivot_table(
-            index="zona_codigo",
-            columns="actividad_scian",
-            values="establecimientos",
-            aggfunc="sum",
-            fill_value=0,
-        )
-        .reset_index()
+    Una consulta incompleta deja el valor como faltante; no se convierte a
+    cero. Los ceros solo se rellenan cuando la metadata declara una cobertura
+    completa y la zona no tiene consultas incompletas.
+    """
+    _validar_metadata(metadata_denue, META_DENUE, "DENUE")
+    _validar_metadata(metadata_marco, META_MARCO, "Marco")
+    df = _normalizar_conteos(conteos)
+    gdf = _validar_zonas(zonas)
+
+    actividades = sorted(set(df["actividad_scian"]) | set(CODIGOS_FARMACIA))
+    pivot = df.pivot_table(
+        index="zona_codigo",
+        columns="actividad_scian",
+        values="establecimientos",
+        aggfunc="sum",
     )
-    
-    # Renombrar columnas de actividad
-    plata = plata.rename(
+    no_completas = df.loc[
+        df["estado_query"].ne("completo"), ["zona_codigo", "actividad_scian"]
+    ].drop_duplicates()
+    zonas_incompletas = set(no_completas["zona_codigo"])
+    for _, fila in no_completas.iterrows():
+        if fila["zona_codigo"] in pivot.index and fila["actividad_scian"] in pivot.columns:
+            pivot.loc[fila["zona_codigo"], fila["actividad_scian"]] = pd.NA
+
+    pivot = pivot.reindex(index=sorted(gdf["zona_codigo"]), columns=actividades)
+    if metadata_denue.get("estado_query") == "completo":
+        for zona in pivot.index:
+            if zona not in zonas_incompletas:
+                pivot.loc[zona] = pivot.loc[zona].fillna(0)
+
+    plata = pivot.reset_index().rename(
         columns={
             "464111": "farmacias_464111",
             "464112": "farmacias_464112",
         }
     )
-    # Asegurar que existan ambas columnas
-    for col in ("farmacias_464111", "farmacias_464112"):
-        if col not in plata.columns:
-            plata[col] = 0
-            
-    plata["farmacias_total"] = plata["farmacias_464111"] + plata["farmacias_464112"]
+    for columna in ("farmacias_464111", "farmacias_464112"):
+        if columna not in plata.columns:
+            plata[columna] = float("nan")
+    plata["farmacias_total"] = plata[
+        ["farmacias_464111", "farmacias_464112"]
+    ].sum(axis=1, min_count=2)
+    plata["estado_query"] = [
+        "incompleto" if z in zonas_incompletas else "completo"
+        for z in plata["zona_codigo"]
+    ]
 
-    # 3. Unir con polígonos (left join para no perder zonas sin polígono)
-    zonas = zonas.copy()
-    zonas["zona_codigo"] = zonas["zona_codigo"].astype(str).str.zfill(5)
-    oro = zonas.merge(plata, on="zona_codigo", how="left")
-
-    # 4. Marcar zonas sin conteo como faltantes (no convertir a cero automáticamente)
-    sin_conteo = oro["farmacias_total"].isna()
-    oro.loc[sin_conteo, "farmacias_total"] = pd.NA
-
-    # 5. Reproyectar a CRS métrico *equal-area* (EPSG:6933) para área en km²
-    crs_metrico = "EPSG:6933"
-    oro_proj = oro.to_crs(crs_metrico)
-
-    # 6. Calcular área en km² (la unidad del CRS métrico es el metro)
-    oro["area_km2"] = oro_proj.geometry.area / 1_000_000.0
+    oro = gdf.merge(plata, on="zona_codigo", how="left", validate="one_to_one")
+    proyeccion = oro.to_crs(CRS_METRICO)
+    oro["area_km2"] = proyeccion.geometry.area / 1_000_000.0
     oro.loc[oro["area_km2"] <= 0, "area_km2"] = pd.NA
-
-    # 7. Densidad (solo si hay conteo y área válida)
     oro["farmacias_por_km2"] = oro["farmacias_total"] / oro["area_km2"]
 
-    # 8. Linaje: propagar metadatos para trazabilidad
-    oro["denue_edicion"] = metadata_denue.get("edicion", "desconocida")
-    oro["denue_query_id"] = metadata_denue.get("query_id", "desconocido")
-    oro["denue_sha256"] = metadata_denue.get("sha256", "")
-    oro["denue_ingestado_en"] = metadata_denue.get("ingestado_en", "")
-    oro["marco_version"] = metadata_marco.get("version", "desconocida")
-    oro["marco_sha256"] = metadata_marco.get("sha256", "")
-    oro["transformacion_version"] = "e2-v1"
-
+    oro["denue_edicion"] = str(metadata_denue["edicion"])
+    oro["denue_query_id"] = str(metadata_denue["query_id"])
+    oro["denue_sha256"] = str(metadata_denue["sha256"])
+    oro["denue_ingestado_en"] = str(metadata_denue["ingestado_en"])
+    oro["marco_version"] = str(metadata_marco["version"])
+    oro["marco_sha256"] = str(metadata_marco["sha256"])
+    oro["transformacion_version"] = TRANSFORMACION_VERSION
+    oro = oro.sort_values("zona_codigo", kind="mergesort").reset_index(drop=True)
     return plata, oro
 
 
-def crear_mapa(
-    zonas_oro: gpd.GeoDataFrame,
-    output: Path,
-) -> None:
-    """
-    Genera un mapa coroplético de densidad de farmacias por km².
-    """
-    # Trabajar en un CRS adecuado para visualización (WGS84)
+def crear_mapa(zonas_oro: gpd.GeoDataFrame, output: Path) -> None:
+    """Genera un mapa coroplético agregado, sin ubicaciones de unidades."""
+    if zonas_oro.crs is None:
+        raise ValueError("zonas_oro debe declarar CRS")
     gdf = zonas_oro.to_crs("EPSG:4326")
-
     fig, ax = plt.subplots(1, 1, figsize=(10, 8))
-    
-    gdf.plot(
-        column="farmacias_por_km2",
-        ax=ax,
-        legend=True,
-        legend_kwds={
-            "label": "Farmacias por km²",
-            "orientation": "horizontal",
-            "shrink": 0.6,
-        },
-        cmap="YlOrRd",
-        missing_kwds={"color": "lightgrey", "label": "Sin dato"},
-        edgecolor="black",
-        linewidth=0.3,
-    )
-    ax.set_title("Densidad de farmacias por zona — Colima (DENUE + Marco Geoestadístico)")
-    ax.set_axis_off()
-
-    # Atribución obligatoria (Regla de ética)
-    fig.text(
-        0.5,
-        0.02,
-        "Fuente: INEGI, DENUE y Marco Geoestadístico. Elaboración propia.",
-        ha="center",
-        fontsize=8,
-        style="italic",
-    )
-
-    output.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(output, dpi=200, bbox_inches="tight")
-    plt.close(fig)
+    try:
+        gdf.plot(
+            column="farmacias_por_km2",
+            ax=ax,
+            legend=True,
+            legend_kwds={
+                "label": "Farmacias por km²",
+                "orientation": "horizontal",
+                "shrink": 0.6,
+            },
+            cmap="YlOrRd",
+            missing_kwds={"color": "lightgrey", "label": "Sin dato"},
+            edgecolor="black",
+            linewidth=0.3,
+        )
+        edicion = gdf["denue_edicion"].iloc[0] if len(gdf) else "sin dato"
+        marco = gdf["marco_version"].iloc[0] if len(gdf) else "sin dato"
+        ax.set_title(
+            f"Densidad de farmacias por zona — Colima\n"
+            f"DENUE {edicion} · Marco {marco}"
+        )
+        ax.set_axis_off()
+        fig.text(
+            0.5,
+            0.02,
+            "Fuente: INEGI, DENUE y Marco Geoestadístico. Elaboración propia.",
+            ha="center",
+            fontsize=8,
+            style="italic",
+        )
+        output.parent.mkdir(parents=True, exist_ok=True)
+        fig.savefig(output, dpi=200, bbox_inches="tight")
+    finally:
+        plt.close(fig)

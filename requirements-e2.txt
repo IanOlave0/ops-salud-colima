@@ -1,6 +1,5 @@
-pandas>=2.0
-matplotlib>=3.7
-geopandas>=0.14
-shapely>=2.0
-requests>=2.31
-pyproj>=3.6
+-r requirements.txt
+geopandas>=0.14,<2
+matplotlib>=3.7,<4
+pyproj>=3.6,<4
+shapely>=2.0,<3
