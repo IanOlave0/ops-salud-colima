@@ -43,6 +43,7 @@ def _meta_denue() -> dict[str, str]:
         "edicion": "05/2026",
         "query_id": "a" * 64,
         "sha256": "b" * 64,
+        "zip_sha256": "d" * 64,
         "ingestado_en": "2026-11-23T00:00:00+00:00",
         "estado_query": "completo",
     }
@@ -131,8 +132,16 @@ class IntegracionGeoespacialTest(unittest.TestCase):
             fila["farmacias_por_km2"], fila["farmacias_total"] / fila["area_km2"], places=9
         )
 
+    def test_rechaza_geometria_degenerada(self) -> None:
+        zonas = _zonas().copy()
+        zonas.loc[0, "geometry"] = Polygon([(0, 0), (0, 0), (0, 0)])
+        with self.assertRaises(ValueError):
+            integrar_zonas(_conteos(), zonas, _meta_denue(), _meta_marco())
+
     def test_mapa_se_genera_sin_puntos_de_unidades(self) -> None:
         _, oro = integrar_zonas(_conteos(), _zonas(), _meta_denue(), _meta_marco())
+        self.assertIn("geometry", oro.columns)
+        self.assertTrue(oro.geometry.geom_type.isin(["Polygon", "MultiPolygon"]).all())
         with tempfile.TemporaryDirectory() as tmp:
             output = Path(tmp) / "mapa.png"
             crear_mapa(oro, output)

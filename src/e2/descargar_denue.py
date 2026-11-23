@@ -109,12 +109,12 @@ def agregar_farmacias(
         raise ErrorDenue("la fuente no contiene registros de Colima")
 
     permitidas = set(CODIGOS_FARMACIA)
+    limpio["zona_codigo"] = limpio["cve_ent"].str.zfill(2) + limpio["cve_mun"].str.zfill(3)
+    todas_las_zonas = sorted(limpio["zona_codigo"].unique())
     limpio = limpio[limpio["codigo_act"].isin(permitidas)].copy()
     if limpio.empty:
         raise ErrorDenue("la fuente no contiene farmacias del catálogo auditado")
 
-    limpio["zona_codigo"] = limpio["cve_ent"].str.zfill(2) + limpio["cve_mun"].str.zfill(3)
-    todas_las_zonas = sorted(limpio["zona_codigo"].unique())
     conteos = (
         limpio.groupby(
             ["zona_codigo", "codigo_act", "per_ocu"], sort=True, as_index=False
@@ -206,6 +206,10 @@ def main(argv: list[str] | None = None) -> int:
         else:
             csv_path = args.csv
             zip_sha256 = _sha256(args.zip) if args.zip else ""
+        if not zip_sha256:
+            raise ErrorDenue(
+                "se requiere --zip (o descarga) para registrar el SHA del insumo"
+            )
 
         df = leer_csv_denue(csv_path)
         ingestado_en = datetime.now(timezone.utc).isoformat(timespec="seconds")

@@ -23,7 +23,7 @@ COLUMNAS_CONTEO = [
 ESTADOS_QUERY = {"completo", "incompleto", "sin_respuesta"}
 _RE_ZONA = re.compile(r"^\d{5}$")
 _RE_SHA = re.compile(r"^[0-9a-f]{64}$")
-META_DENUE = ("edicion", "query_id", "sha256", "ingestado_en", "estado_query")
+META_DENUE = ("edicion", "query_id", "sha256", "zip_sha256", "ingestado_en", "estado_query")
 META_MARCO = ("version", "sha256")
 TRANSFORMACION_VERSION = "e2-v1"
 CRS_METRICO = "EPSG:6933"
@@ -35,7 +35,7 @@ def _validar_metadata(
     faltan = [clave for clave in requeridas if not str(metadata.get(clave, "")).strip()]
     if faltan:
         raise ValueError(f"metadata {nombre} incompleta: faltan {', '.join(faltan)}")
-    for clave in ("sha256",):
+    for clave in ("sha256", "zip_sha256"):
         if clave in requeridas and not _RE_SHA.match(str(metadata[clave])):
             raise ValueError(f"metadata {nombre}: {clave} no es SHA-256 hexadecimal")
 

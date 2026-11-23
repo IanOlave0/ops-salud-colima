@@ -23,10 +23,9 @@ guardar credenciales y permite reproducir el agregado localmente.
 - Registros de Colima: 42 073
 - Campos usados: `cve_ent`, `cve_mun`, `codigo_act`, `per_ocu`
 
-El código conserva la opción de agregar un cliente API en el futuro, pero la
-entrega actual no depende de él. La captura real usa el ZIP oficial, cuyo hash
-queda en `zip_sha256`; el CSV extraído se procesa en un directorio temporal y
-se elimina al terminar.
+El alcance de esta entrega es la descarga masiva oficial; no incluye un cliente
+API. La captura real usa el ZIP oficial, cuyo hash queda en `zip_sha256`; el
+CSV extraído se procesa en un directorio temporal y se elimina al terminar.
 
 ## 3. Qué se construyó
 

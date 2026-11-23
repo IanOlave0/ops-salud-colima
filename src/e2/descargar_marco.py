@@ -6,12 +6,25 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 
 import requests
 
 URL_MARCO_COLIMA = "https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgem/06"
-VERSION_DEFAULT = "2025-12"
+_MESES = {
+    "enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5, "junio": 6,
+    "julio": 7, "agosto": 8, "septiembre": 9, "octubre": 10, "noviembre": 11,
+    "diciembre": 12,
+}
+
+
+def _version_metadatos(payload: dict) -> str | None:
+    texto = str((payload.get("metadatos") or {}).get("Fuente_informacion_vectorial", ""))
+    encontrado = re.search(r"(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)\s+de\s+(\d{4})", texto, re.I)
+    if not encontrado:
+        return None
+    return f"{encontrado.group(2)}-{_MESES[encontrado.group(1).lower()]:02d}"
 
 
 def _sha256(ruta: Path) -> str:
@@ -54,11 +67,15 @@ def filtrar_marco(payload: dict) -> dict:
 def descargar_marco(
     destino: Path,
     url: str = URL_MARCO_COLIMA,
-    version: str = VERSION_DEFAULT,
+    version: str | None = None,
 ) -> dict[str, str]:
     respuesta = requests.get(url, timeout=120)
     respuesta.raise_for_status()
-    filtrado = filtrar_marco(respuesta.json())
+    payload = respuesta.json()
+    version = version or _version_metadatos(payload)
+    if not version:
+        raise ValueError("no se pudo determinar la versión del Marco desde la fuente")
+    filtrado = filtrar_marco(payload)
     filtrado["version"] = version
     destino.parent.mkdir(parents=True, exist_ok=True)
     destino.write_text(
@@ -88,7 +105,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--output", type=Path, default=Path("datos_crudos/e2/marco_geoestadistico_zonas.geojson"))
     parser.add_argument("--metadata", type=Path, default=Path("datos_crudos/e2/marco_snapshot.json"))
     parser.add_argument("--url", default=URL_MARCO_COLIMA)
-    parser.add_argument("--version", default=VERSION_DEFAULT)
+    parser.add_argument("--version", default=None, help="si se omite, se deriva de los metadatos de la fuente")
     args = parser.parse_args(argv)
     datos = descargar_marco(args.output, args.url, args.version)
     guardar_metadata(datos, args.metadata)
