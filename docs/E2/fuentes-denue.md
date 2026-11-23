@@ -10,6 +10,9 @@
 - **Archivo interno usado:** `conjunto_de_datos/denue_inegi_06_.csv`.
 - **Codificación:** Latin-1 (ISO-8859-1).
 - **Cobertura:** 42 073 establecimientos de Colima en el archivo oficial.
+- **Catálogo SCIAN:** estructura oficial México 2023,
+  <https://www.inegi.org.mx/contenidos/app/scian/estructura2023.pdf>,
+  consultada el 2026-11-23. Se usan las clases `464111` y `464112`.
 - **SHA-256 del ZIP descargado:**
   `948e292e567ce16a8b7485f15846ddaaf9c9cda6fda9be07334bb6afc5480af6`.
   Se registra en `denue_snapshot.json` como `zip_sha256` para verificar el
