@@ -35,4 +35,3 @@ cuarentena/
 datos_privados/
 .env
 *.token
-.venv/

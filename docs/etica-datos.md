@@ -65,6 +65,11 @@
   causal ni una medida de inventario.
 - **Granularidad:** municipios con varias unidades comparten indicadores. No
   se infieren diferencias entre unidades a partir de esta capa.
+- **Reidentificación:** una celda con `establecimientos=1` en una combinación
+  zona/actividad/estrato podría cruzarse con el DENUE público para inferir un
+  establecimiento. No publicamos nombre, domicilio ni coordenadas, pero el
+  riesgo residual se declara; para análisis sensibles se agregará por zona y
+  actividad sin estrato.
 
 ## 4. Análisis propio y no oficial
 

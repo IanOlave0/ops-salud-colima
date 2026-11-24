@@ -13,6 +13,9 @@ import requests
 
 URL_MARCO_COLIMA = "https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgem/06"
 MAX_BYTES = 20 * 1024 * 1024
+MARCO_SHA256_POR_VERSION = {
+    "2025-12": "a345fd583e0b9c35ecc84c1494c40b5999338c8a33b134c9ad28e4e1d2635571",
+}
 _MESES = {
     "enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5, "junio": 6,
     "julio": 7, "agosto": 8, "septiembre": 9, "octubre": 10, "noviembre": 11,
@@ -89,6 +92,13 @@ def descargar_marco(
     version = version or _version_metadatos(payload)
     if not version:
         raise ValueError("no se pudo determinar la versión del Marco desde la fuente")
+    esperado = MARCO_SHA256_POR_VERSION.get(version)
+    if not esperado:
+        raise ValueError(f"versión del Marco no autorizada: {version}")
+    if fuente_sha256 != esperado:
+        raise ValueError(
+            f"el Marco descargado no coincide con el SHA esperado para {version}"
+        )
     filtrado = filtrar_marco(payload)
     filtrado["version"] = version
     destino.parent.mkdir(parents=True, exist_ok=True)

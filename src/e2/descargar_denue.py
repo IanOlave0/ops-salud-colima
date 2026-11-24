@@ -208,24 +208,14 @@ def guardar_snapshot(
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--zip", type=Path, default=None)
-    parser.add_argument("--csv", type=Path, default=None)
     parser.add_argument("--output-dir", type=Path, default=Path("datos_crudos/e2"))
     parser.add_argument("--edicion", default=EDICION_DEFAULT)
     args = parser.parse_args(argv)
 
     with tempfile.TemporaryDirectory() as tmp:
         tmpdir = Path(tmp)
-        if args.csv is None:
-            zip_path = args.zip or descargar_bulk(tmpdir / "denue_06_csv.zip")
-            zip_sha256 = _sha256(zip_path)
-            csv_path = extraer_csv(zip_path, tmpdir / "denue06")
-        else:
-            csv_path = args.csv
-            zip_sha256 = _sha256(args.zip) if args.zip else ""
-        if not zip_sha256:
-            raise ErrorDenue(
-                "se requiere --zip (o descarga) para registrar el SHA del insumo"
-            )
+        zip_path = args.zip or descargar_bulk(tmpdir / "denue_06_csv.zip")
+        zip_sha256 = _sha256(zip_path)
         esperado = ZIP_SHA256_POR_EDICION.get(args.edicion)
         if not esperado:
             raise ErrorDenue(
@@ -237,6 +227,7 @@ def main(argv: list[str] | None = None) -> int:
                 "el ZIP descargado no coincide con el SHA esperado para la edición "
                 f"{args.edicion}"
             )
+        csv_path = extraer_csv(zip_path, tmpdir / "denue06")
 
         df = leer_csv_denue(csv_path)
         ingestado_en = datetime.now(timezone.utc).isoformat(timespec="seconds")

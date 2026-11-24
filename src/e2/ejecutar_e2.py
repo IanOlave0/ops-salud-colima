@@ -13,6 +13,8 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
+from src.e2.descargar_denue import ZIP_SHA256_POR_EDICION
+from src.e2.descargar_marco import MARCO_SHA256_POR_VERSION
 from src.e2.integrar_geoespacial import crear_mapa, integrar_zonas
 
 DEFAULT_SNAPSHOT = Path("datos_crudos/e2/denue_cuantificar_zona.csv")
@@ -54,7 +56,15 @@ def ejecutar(
     meta_marco = json.loads(marco_metadata.read_text(encoding="utf-8"))
     _verificar_hash(snapshot, meta_denue.get("sha256"), "snapshot DENUE")
     _verificar_hash(marco, meta_marco.get("sha256"), "Marco")
-    if not str(meta_marco.get("version", "")).strip():
+    edicion = str(meta_denue.get("edicion", ""))
+    esperado_zip = ZIP_SHA256_POR_EDICION.get(edicion)
+    if not esperado_zip or meta_denue.get("zip_sha256") != esperado_zip:
+        raise ValueError("zip_sha256 no coincide con la edición DENUE autorizada")
+    version = str(meta_marco.get("version", ""))
+    esperado_marco = MARCO_SHA256_POR_VERSION.get(version)
+    if not esperado_marco or meta_marco.get("fuente_sha256") != esperado_marco:
+        raise ValueError("fuente_sha256 del Marco no coincide con la versión autorizada")
+    if not version:
         raise ValueError("metadata Marco sin versión")
     zonas = gpd.read_file(marco)
 

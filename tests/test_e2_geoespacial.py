@@ -79,6 +79,16 @@ class IntegracionGeoespacialTest(unittest.TestCase):
         self.assertEqual(int(sin_filas["farmacias_total"]), 0)
         self.assertEqual(sin_filas["estado_query"], "completo")
 
+    def test_actividad_faltante_no_se_rellena_como_cero(self) -> None:
+        conteos = _conteos()
+        conteos = conteos[
+            ~((conteos["zona_codigo"] == "06001") & (conteos["actividad_scian"] == "464112"))
+        ]
+        _, oro = integrar_zonas(conteos, _zonas(), _meta_denue(), _meta_marco())
+        fila = oro.loc[oro["zona_codigo"] == "06001"].iloc[0]
+        self.assertTrue(pd.isna(fila["farmacias_464112"]))
+        self.assertEqual(fila["estado_query"], "incompleto")
+
     def test_zona_sin_filas_se_marca_sin_respuesta(self) -> None:
         conteos = _conteos()
         conteos = conteos[conteos["zona_codigo"] != "06003"]

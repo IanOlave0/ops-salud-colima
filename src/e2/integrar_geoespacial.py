@@ -121,10 +121,15 @@ def integrar_zonas(
     pivot = pivot.reindex(index=sorted(gdf["zona_codigo"]), columns=actividades)
     zonas_conteo = set(df["zona_codigo"])
     zonas_ausentes = set(pivot.index) - zonas_conteo
-    if metadata_denue.get("estado_query") == "completo":
-        for zona in pivot.index:
-            if zona not in zonas_incompletas and zona not in zonas_ausentes:
-                pivot.loc[zona] = pivot.loc[zona].fillna(0)
+    pares_presentes = set(zip(df["zona_codigo"], df["actividad_scian"]))
+    for zona in pivot.index:
+        if zona in zonas_ausentes:
+            continue
+        for actividad in actividades:
+            if (zona, actividad) not in pares_presentes:
+                zonas_incompletas.add(zona)
+        if metadata_denue.get("estado_query") == "completo" and zona not in zonas_incompletas:
+            pivot.loc[zona] = pivot.loc[zona].fillna(0)
 
     plata = pivot.reset_index().rename(
         columns={

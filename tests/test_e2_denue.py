@@ -130,12 +130,15 @@ class AgregadoDenueTest(unittest.TestCase):
                 _verificar_hash(ruta, "0" * 64, "snapshot")
             _verificar_hash(ruta, hashlib.sha256(ruta.read_bytes()).hexdigest(), "snapshot")
 
-    def test_main_rechaza_csv_sin_zip(self) -> None:
+    def test_main_rechaza_edicion_no_autorizada(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
+            zip_path = Path(tmp) / "denue.zip"
+            zip_path.write_bytes(b"zip")
             with self.assertRaises(ErrorDenue):
                 main_denue(
                     [
-                        "--csv", str(Path(tmp) / "denue.csv"),
+                        "--edicion", "11/2026",
+                        "--zip", str(zip_path),
                         "--output-dir", str(Path(tmp) / "out"),
                     ]
                 )
