@@ -12,6 +12,7 @@ from pathlib import Path
 import requests
 
 URL_MARCO_COLIMA = "https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgem/06"
+MAX_BYTES = 20 * 1024 * 1024
 _MESES = {
     "enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5, "junio": 6,
     "julio": 7, "agosto": 8, "septiembre": 9, "octubre": 10, "noviembre": 11,
@@ -69,9 +70,22 @@ def descargar_marco(
     url: str = URL_MARCO_COLIMA,
     version: str | None = None,
 ) -> dict[str, str]:
-    respuesta = requests.get(url, timeout=120)
-    respuesta.raise_for_status()
-    payload = respuesta.json()
+    respuesta = requests.get(url, timeout=120, stream=True)
+    try:
+        respuesta.raise_for_status()
+        declarado = respuesta.headers.get("Content-Length")
+        if declarado and int(declarado) > MAX_BYTES:
+            raise ValueError("la respuesta del Marco excede el límite permitido")
+        contenido = bytearray()
+        for bloque in respuesta.iter_content(chunk_size=8192):
+            contenido.extend(bloque)
+            if len(contenido) > MAX_BYTES:
+                raise ValueError("la respuesta del Marco excede el límite permitido")
+    finally:
+        respuesta.close()
+    contenido = bytes(contenido)
+    fuente_sha256 = hashlib.sha256(contenido).hexdigest()
+    payload = json.loads(contenido)
     version = version or _version_metadatos(payload)
     if not version:
         raise ValueError("no se pudo determinar la versión del Marco desde la fuente")
@@ -86,6 +100,7 @@ def descargar_marco(
         "path": str(destino),
         "version": version,
         "sha256": _sha256(destino),
+        "fuente_sha256": fuente_sha256,
         "features": str(len(filtrado["features"])),
         "url": url,
     }

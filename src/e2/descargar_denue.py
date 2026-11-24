@@ -27,7 +27,11 @@ from src.e2.catalogo_scian import CODIGOS_FARMACIA
 
 URL_BULK_COLIMA = "https://www.inegi.org.mx/contenidos/masiva/denue/denue_06_csv.zip"
 EDICION_DEFAULT = "05/2026"
-ZIP_SHA256_05_2026 = "948e292e567ce16a8b7485f15846ddaaf9c9cda6fda9be07334bb6afc5480af6"
+MAX_BYTES = 100 * 1024 * 1024
+ZIP_SHA256_POR_EDICION = {
+    "05/2026": "948e292e567ce16a8b7485f15846ddaaf9c9cda6fda9be07334bb6afc5480af6",
+}
+ZIP_SHA256_05_2026 = ZIP_SHA256_POR_EDICION[EDICION_DEFAULT]
 ARCHIVO_CSV = "conjunto_de_datos/denue_inegi_06_.csv"
 COLUMNAS_SNAPSHOT = [
     "zona_codigo",
@@ -71,9 +75,20 @@ def leer_csv_denue(ruta: Path) -> pd.DataFrame:
 def descargar_bulk(destino: Path, url: str = URL_BULK_COLIMA) -> Path:
     """Descarga el ZIP oficial por entidad sin token ni scraping."""
     destino.parent.mkdir(parents=True, exist_ok=True)
-    respuesta = requests.get(url, timeout=120)
-    respuesta.raise_for_status()
-    destino.write_bytes(respuesta.content)
+    respuesta = requests.get(url, timeout=120, stream=True)
+    try:
+        respuesta.raise_for_status()
+        declarado = respuesta.headers.get("Content-Length")
+        if declarado and int(declarado) > MAX_BYTES:
+            raise ErrorDenue("el ZIP oficial excede el límite de tamaño permitido")
+        contenido = bytearray()
+        for bloque in respuesta.iter_content(chunk_size=8192):
+            contenido.extend(bloque)
+            if len(contenido) > MAX_BYTES:
+                raise ErrorDenue("el ZIP oficial excede el límite de tamaño permitido")
+    finally:
+        respuesta.close()
+    destino.write_bytes(bytes(contenido))
     return destino
 
 
@@ -196,7 +211,6 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--csv", type=Path, default=None)
     parser.add_argument("--output-dir", type=Path, default=Path("datos_crudos/e2"))
     parser.add_argument("--edicion", default=EDICION_DEFAULT)
-    parser.add_argument("--zip-sha256", default=None)
     args = parser.parse_args(argv)
 
     with tempfile.TemporaryDirectory() as tmp:
@@ -212,12 +226,11 @@ def main(argv: list[str] | None = None) -> int:
             raise ErrorDenue(
                 "se requiere --zip (o descarga) para registrar el SHA del insumo"
             )
-        esperado = args.zip_sha256 or (
-            ZIP_SHA256_05_2026 if args.edicion == EDICION_DEFAULT else None
-        )
+        esperado = ZIP_SHA256_POR_EDICION.get(args.edicion)
         if not esperado:
             raise ErrorDenue(
-                "para una edición distinta de 05/2026 debes indicar --zip-sha256"
+                f"edición {args.edicion} no autorizada; agrega su SHA a "
+                "ZIP_SHA256_POR_EDICION tras verificarla en INEGI"
             )
         if zip_sha256 != esperado:
             raise ErrorDenue(

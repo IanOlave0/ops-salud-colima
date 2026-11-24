@@ -34,6 +34,8 @@ def _conteos() -> pd.DataFrame:
             {"zona_codigo": "06001", "actividad_scian": "464111", "estrato": "0", "establecimientos": 5, "estado_query": "completo"},
             {"zona_codigo": "06001", "actividad_scian": "464112", "estrato": "0", "establecimientos": 3, "estado_query": "completo"},
             {"zona_codigo": "06002", "actividad_scian": "464111", "estrato": "0", "establecimientos": 2, "estado_query": "completo"},
+            {"zona_codigo": "06003", "actividad_scian": "464111", "estrato": "0", "establecimientos": 0, "estado_query": "completo"},
+            {"zona_codigo": "06003", "actividad_scian": "464112", "estrato": "0", "establecimientos": 0, "estado_query": "completo"},
         ]
     )
 
@@ -50,7 +52,7 @@ def _meta_denue() -> dict[str, str]:
 
 
 def _meta_marco() -> dict[str, str]:
-    return {"version": "2025-12", "sha256": "c" * 64}
+    return {"version": "2025-12", "sha256": "c" * 64, "fuente_sha256": "e" * 64}
 
 
 class IntegracionGeoespacialTest(unittest.TestCase):
@@ -77,16 +79,20 @@ class IntegracionGeoespacialTest(unittest.TestCase):
         self.assertEqual(int(sin_filas["farmacias_total"]), 0)
         self.assertEqual(sin_filas["estado_query"], "completo")
 
+    def test_zona_sin_filas_se_marca_sin_respuesta(self) -> None:
+        conteos = _conteos()
+        conteos = conteos[conteos["zona_codigo"] != "06003"]
+        _, oro = integrar_zonas(conteos, _zonas(), _meta_denue(), _meta_marco())
+        fila = oro.loc[oro["zona_codigo"] == "06003"].iloc[0]
+        self.assertTrue(pd.isna(fila["farmacias_total"]))
+        self.assertEqual(fila["estado_query"], "sin_respuesta")
+
     def test_respuesta_incompleta_no_se_convierte_en_cero(self) -> None:
-        conteos = pd.concat(
-            [
-                _conteos(),
-                pd.DataFrame(
-                    [{"zona_codigo": "06003", "actividad_scian": "464111", "estrato": "0", "establecimientos": 0, "estado_query": "sin_respuesta"}]
-                ),
-            ],
-            ignore_index=True,
+        conteos = _conteos().copy()
+        mask = (conteos["zona_codigo"] == "06003") & (
+            conteos["actividad_scian"] == "464111"
         )
+        conteos.loc[mask, "estado_query"] = "sin_respuesta"
         _, oro = integrar_zonas(conteos, _zonas(), _meta_denue(), _meta_marco())
         fila = oro.loc[oro["zona_codigo"] == "06003"].iloc[0]
         self.assertTrue(pd.isna(fila["farmacias_464111"]))

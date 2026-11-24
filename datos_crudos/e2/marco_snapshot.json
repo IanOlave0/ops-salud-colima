@@ -1,5 +1,6 @@
 {
   "features": "10",
+  "fuente_sha256": "a345fd583e0b9c35ecc84c1494c40b5999338c8a33b134c9ad28e4e1d2635571",
   "path": "datos_crudos/e2/marco_geoestadistico_zonas.geojson",
   "sha256": "6482d345e16ecd9f993043e462d0a3d82226d87b6274a90ecb53061893a3e881",
   "url": "https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgem/06",

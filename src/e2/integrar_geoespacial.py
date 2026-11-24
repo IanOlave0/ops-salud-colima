@@ -24,7 +24,7 @@ ESTADOS_QUERY = {"completo", "incompleto", "sin_respuesta"}
 _RE_ZONA = re.compile(r"^\d{5}$")
 _RE_SHA = re.compile(r"^[0-9a-f]{64}$")
 META_DENUE = ("edicion", "query_id", "sha256", "zip_sha256", "ingestado_en", "estado_query")
-META_MARCO = ("version", "sha256")
+META_MARCO = ("version", "sha256", "fuente_sha256")
 TRANSFORMACION_VERSION = "e2-v1"
 CRS_METRICO = "EPSG:6933"
 
@@ -35,7 +35,7 @@ def _validar_metadata(
     faltan = [clave for clave in requeridas if not str(metadata.get(clave, "")).strip()]
     if faltan:
         raise ValueError(f"metadata {nombre} incompleta: faltan {', '.join(faltan)}")
-    for clave in ("sha256", "zip_sha256"):
+    for clave in ("sha256", "zip_sha256", "fuente_sha256"):
         if clave in requeridas and not _RE_SHA.match(str(metadata[clave])):
             raise ValueError(f"metadata {nombre}: {clave} no es SHA-256 hexadecimal")
 
@@ -119,9 +119,11 @@ def integrar_zonas(
             pivot.loc[fila["zona_codigo"], fila["actividad_scian"]] = pd.NA
 
     pivot = pivot.reindex(index=sorted(gdf["zona_codigo"]), columns=actividades)
+    zonas_conteo = set(df["zona_codigo"])
+    zonas_ausentes = set(pivot.index) - zonas_conteo
     if metadata_denue.get("estado_query") == "completo":
         for zona in pivot.index:
-            if zona not in zonas_incompletas:
+            if zona not in zonas_incompletas and zona not in zonas_ausentes:
                 pivot.loc[zona] = pivot.loc[zona].fillna(0)
 
     plata = pivot.reset_index().rename(
@@ -137,7 +139,9 @@ def integrar_zonas(
         ["farmacias_464111", "farmacias_464112"]
     ].sum(axis=1, min_count=2)
     plata["estado_query"] = [
-        "incompleto" if z in zonas_incompletas else "completo"
+        "sin_respuesta" if z in zonas_ausentes
+        else "incompleto" if z in zonas_incompletas
+        else "completo"
         for z in plata["zona_codigo"]
     ]
 
@@ -151,9 +155,11 @@ def integrar_zonas(
     oro["denue_edicion"] = str(metadata_denue["edicion"])
     oro["denue_query_id"] = str(metadata_denue["query_id"])
     oro["denue_sha256"] = str(metadata_denue["sha256"])
+    oro["denue_zip_sha256"] = str(metadata_denue["zip_sha256"])
     oro["denue_ingestado_en"] = str(metadata_denue["ingestado_en"])
     oro["marco_version"] = str(metadata_marco["version"])
     oro["marco_sha256"] = str(metadata_marco["sha256"])
+    oro["marco_fuente_sha256"] = str(metadata_marco["fuente_sha256"])
     oro["transformacion_version"] = TRANSFORMACION_VERSION
     oro = oro.sort_values("zona_codigo", kind="mergesort").reset_index(drop=True)
     return plata, oro

@@ -152,16 +152,10 @@ class AgregadoDenueTest(unittest.TestCase):
     def test_descargar_marco_falla_sin_version(self) -> None:
         respuesta = mock.Mock()
         respuesta.raise_for_status.return_value = None
-        respuesta.json.return_value = {
-            "metadatos": {"Fuente_informacion_vectorial": "sin fecha"},
-            "features": [
-                {
-                    "type": "Feature",
-                    "properties": {"cvegeo": "06001", "nomgeo": "Armería"},
-                    "geometry": {"type": "Point", "coordinates": [-103.0, 19.0]},
-                }
-            ],
-        }
+        respuesta.headers = {}
+        respuesta.content = b'{"metadatos":{"Fuente_informacion_vectorial":"sin fecha"},"features":[{"type":"Feature","properties":{"cvegeo":"06001","nomgeo":"Armeria"},"geometry":{"type":"Point","coordinates":[-103.0,19.0]}}]}'
+        respuesta.iter_content.return_value = [respuesta.content]
+        respuesta.close.return_value = None
         with tempfile.TemporaryDirectory() as tmp:
             with mock.patch("src.e2.descargar_marco.requests.get", return_value=respuesta):
                 with self.assertRaises(ValueError):
