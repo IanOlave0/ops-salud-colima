@@ -1,0 +1,7 @@
+{
+  "features": "10",
+  "path": "datos_crudos/e2/marco_geoestadistico_zonas.geojson",
+  "sha256": "6482d345e16ecd9f993043e462d0a3d82226d87b6274a90ecb53061893a3e881",
+  "url": "https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgem/06",
+  "version": "2025-12"
+}

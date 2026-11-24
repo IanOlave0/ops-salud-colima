@@ -1,0 +1,27 @@
+{
+  "actividades": [
+    "464111",
+    "464112"
+  ],
+  "archivo_csv": "denue_cuantificar_zona.csv",
+  "columnas": [
+    "zona_codigo",
+    "actividad_scian",
+    "estrato",
+    "establecimientos",
+    "estado_query",
+    "denue_edicion",
+    "denue_query_id",
+    "ingestado_en"
+  ],
+  "edicion": "05/2026",
+  "entidad": "06",
+  "estado_query": "completo",
+  "filas": 49,
+  "ingestado_en": "2026-11-23T23:58:55+00:00",
+  "metodo": "descarga_masiva_entidad",
+  "query_id": "eb94782abfe3c2b9a9774d2454f1f097a5728e2d45892da810b8aac7b68d2510",
+  "sha256": "71e31bf844760ffb0b54de63df869bacb4b0bac2a2fa4c334643f0373a6d9e9a",
+  "url_fuente": "https://www.inegi.org.mx/contenidos/masiva/denue/denue_06_csv.zip",
+  "zip_sha256": "948e292e567ce16a8b7485f15846ddaaf9c9cda6fda9be07334bb6afc5480af6"
+}

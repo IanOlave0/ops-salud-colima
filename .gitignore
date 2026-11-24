@@ -17,6 +17,12 @@ datos_crudos/*
 !datos_crudos/_reporte_dengue.json
 !datos_crudos/inventario_turno_sintetico.csv
 !datos_crudos/_reporte_sintetico.json
+!datos_crudos/e2/
+datos_crudos/e2/*
+!datos_crudos/e2/denue_cuantificar_zona.csv
+!datos_crudos/e2/denue_snapshot.json
+!datos_crudos/e2/marco_geoestadistico_zonas.geojson
+!datos_crudos/e2/marco_snapshot.json
 datos_plata/
 datos_oro/
 cuarentena/
@@ -25,3 +31,8 @@ cuarentena/
 .vscode/
 .idea/
 .DS_Store
+
+datos_privados/
+.env
+*.token
+.venv/

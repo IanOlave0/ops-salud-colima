@@ -106,6 +106,27 @@ The original E1 integration prototype by Carlos Ramirez is preserved in the
 `docs/E1/ENTREGA.md`; the current hybrid keeps the working parts and corrects the validation and
 publication issues. The branch is kept as evidence of that work.
 
+### E2 geospatial source — DENUE + Marco Geoestadístico
+
+E2 adds an aggregated geospatial layer of pharmacies per municipality in Colima. It uses the
+official INEGI DENUE bulk file (edition 05/2026, no token) and the municipal GeoJSON service of
+the Marco Geoestadístico. Only aggregate counts, municipality codes, areas, densities and lineage
+are published; individual establishments and health-unit locations are excluded.
+
+```bash
+python src/e2/descargar_denue.py
+python src/e2/descargar_marco.py
+python src/e2/ejecutar_e2.py
+```
+
+Outputs: `datos_crudos/e2/` (aggregated Bronze snapshot and municipal polygons),
+`datos_plata/e2/publico/`, `datos_oro/e2/publico/`, and `docs/E2/mapa_farmacias_zona.png`.
+Plata/Oro outputs are gitignored; Bronze aggregates and the public polygon subset are versioned
+with INEGI attribution. See `docs/E2/ENTREGA.md`, `docs/E2/fuentes-denue.md`,
+`docs/etica-datos.md` and `docs/relatoria-E2.md`.
+
+**Important:** the pharmacy count describes registered supply, not inventory or stockout risk.
+
 ## Automation
 
 `.github/workflows/bronce.yml` runs daily at 13:00 UTC (07:00 America/Mexico_City), validates
